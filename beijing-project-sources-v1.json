@@ -1,0 +1,5858 @@
+{
+  "schemaVersion": "1.0",
+  "version": "beijing-2026-scoring-v1",
+  "title": "北京2026中考体育现场考试22项评分表",
+  "basis": "现场考试4类22项，每类考1项，满分30分；不属于国家学生体质健康标准评分表。",
+  "applicability": "北京市2026年初中学考体育现场考试；不适用于2027年。",
+  "examYear": 2026,
+  "fieldScore": 30,
+  "categorySource": {
+    "sourceId": "bjeea-2026-middle-school-sports-faq",
+    "title": "《2026年北京市初中学考体育现场考试问题解答》",
+    "publisher": "北京教育考试院",
+    "documentVersion": "2026-04-03",
+    "effectiveFrom": "2026-01-01",
+    "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+    "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+    "retrievedAt": "2026-09-01",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-09",
+    "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+    "verificationMethod": "live_official_html_comparison"
+  },
+  "source": {
+    "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+    "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+    "publisher": "北京教育考试院",
+    "documentVersion": "2023-11-24试行版",
+    "effectiveFrom": "2024-01-01",
+    "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+    "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+    "retrievedAt": "2026-09-01",
+    "verificationStatus": "verified_current_for_2026",
+    "checkedAt": "2026-11-09",
+    "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+    "verificationMethod": "live_official_html_comparison"
+  },
+  "sources": {
+    "policy2026": {
+      "sourceId": "bjeea-2026-middle-school-sports-faq",
+      "title": "《2026年北京市初中学考体育现场考试问题解答》",
+      "publisher": "北京教育考试院",
+      "documentVersion": "2026-04-03",
+      "effectiveFrom": "2026-01-01",
+      "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+      "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+      "retrievedAt": "2026-09-01",
+      "verificationStatus": "verified"
+    },
+    "policy2021": {
+      "sourceId": "beijing-education-2021-31-assessment-policy",
+      "title": "《北京市义务教育体育与健康考核评价方案》",
+      "publisher": "北京市教育委员会",
+      "documentVersion": "京教体艺〔2021〕31号",
+      "effectiveFrom": "2021-12-09",
+      "sourceUrl": "https://jw.beijing.gov.cn/xxgk/2024zcwj/2024xzgfwj/202407/W020240709616267682031.pdf",
+      "pageOrSection": "第2页过程性考核赋分表；第3页现场考试；第8至9页附件",
+      "retrievedAt": "2026-09-01",
+      "verificationStatus": "verified_current"
+    },
+    "fieldScoring2023": {
+      "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+      "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+      "publisher": "北京教育考试院",
+      "documentVersion": "2023-11-24试行版",
+      "effectiveFrom": "2024-01-01",
+      "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+      "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+      "retrievedAt": "2026-09-01",
+      "verificationStatus": "verified_current_for_2026"
+    },
+    "fieldRules2022": {
+      "sourceId": "beijing-field-test-rules-2022-trial",
+      "title": "《北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）》",
+      "publisher": "北京市教育委员会 / 北京教育考试院",
+      "documentVersion": "2022-12试行版",
+      "effectiveFrom": "2024-01-01",
+      "sourceUrl": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+      "pageOrSection": "第3至25页：22项考试操作、记录精度、考试次数与犯规处理",
+      "retrievedAt": "2026-09-01",
+      "verificationStatus": "verified_current_for_2026"
+    }
+  },
+  "catalogSource": {
+    "id": "beijing-entrance-exam-2026",
+    "title": "《2026年北京市初中学考体育现场考试问题解答》",
+    "publisher": "北京教育考试院",
+    "documentVersion": "2026年现场考试",
+    "effectiveFrom": "2026-01-01",
+    "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+    "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+    "itemScopeStatus": "official_source_linked",
+    "scoringRulesStatus": "verified_numeric_16_rubric_6"
+  },
+  "ruleSet": {
+    "id": "beijing-middle-school-field-exam-2026-v1",
+    "code": "beijing-middle-school-sports-field-exam",
+    "version": "2026.field.30.v1",
+    "region": "北京市",
+    "examYear": 2026,
+    "status": "verified",
+    "totalScore": 50,
+    "processScore": 20,
+    "fieldScore": 30,
+    "sourceIds": [
+      "bjeea-2026-middle-school-sports-faq",
+      "beijing-education-2021-31-assessment-policy",
+      "bjeea-beijing-field-scoring-2023-trial",
+      "beijing-field-test-rules-2022-trial"
+    ]
+  },
+  "categories": [
+    {
+      "id": "category_1",
+      "name": "第一类·素质项目Ⅰ",
+      "maxScore": 8,
+      "itemCount": 2,
+      "selection": "每类考1项",
+      "source": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      }
+    },
+    {
+      "id": "category_2",
+      "name": "第二类·素质项目Ⅱ",
+      "maxScore": 8,
+      "itemCount": 8,
+      "selection": "每类考1项",
+      "source": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      }
+    },
+    {
+      "id": "category_3",
+      "name": "第三类·运动能力Ⅰ",
+      "maxScore": 8,
+      "itemCount": 5,
+      "selection": "每类考1项",
+      "source": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      }
+    },
+    {
+      "id": "category_4",
+      "name": "第四类·运动能力Ⅱ",
+      "maxScore": 6,
+      "itemCount": 7,
+      "selection": "每类考1项",
+      "source": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      }
+    }
+  ],
+  "tableNotes": [
+    "数值表按官方原表逐格保留，空字符串表示原表空白；没有补填0次、破折号或数字区间。",
+    "时间用官方分·秒表示；sourceRule保留现有程序以秒计的阈值及版本。",
+    "游泳满分6分；表二8至6.5分的非适用格未列入游泳单项表。",
+    "体操、武术使用动作质量及表现量表，不转换为数值测量阈值。"
+  ],
+  "items": [
+    {
+      "id": "beijing_run_1000m",
+      "metricCode": "beijing_run_1000m",
+      "name": "1000米跑（男）",
+      "categoryId": "category_1",
+      "category": "第一类·素质项目Ⅰ",
+      "unit": "秒",
+      "applicability": "北京 · 2026年 · 男生",
+      "examYear": 2026,
+      "genders": [
+        "male"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表一",
+          "caption": "1000米跑（男）评分表（北京2026男；分·秒）",
+          "header": [
+            "分值",
+            "男（分·秒）"
+          ],
+          "rows": [
+            [
+              "8",
+              "4′05\""
+            ],
+            [
+              "7.5",
+              "4′11\""
+            ],
+            [
+              "7",
+              "4′18\""
+            ],
+            [
+              "6.5",
+              "4′26\""
+            ],
+            [
+              "6",
+              "4′35\""
+            ],
+            [
+              "5.5",
+              "4′45\""
+            ],
+            [
+              "5",
+              "4′55\""
+            ],
+            [
+              "4.5",
+              "5′01\""
+            ],
+            [
+              "4",
+              "5′07\""
+            ],
+            [
+              "3.5",
+              "5′13\""
+            ],
+            [
+              "3",
+              "5′20\""
+            ],
+            [
+              "2.5",
+              "5′27\""
+            ],
+            [
+              "2",
+              "5′34\""
+            ],
+            [
+              "1.5",
+              "5′42\""
+            ],
+            [
+              "1",
+              "5′50\""
+            ],
+            [
+              "0.5",
+              "5′59\""
+            ],
+            [
+              "0",
+              "6′00\""
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表一“1000米（分·秒）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "lower",
+        "maxScore": 8,
+        "scores": [
+          8.0,
+          7.5,
+          7.0,
+          6.5,
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "male": [
+            245,
+            251,
+            258,
+            266,
+            275,
+            285,
+            295,
+            301,
+            307,
+            313,
+            320,
+            327,
+            334,
+            342,
+            350,
+            359,
+            360
+          ]
+        },
+        "category": "category_1",
+        "unit": "s",
+        "sourceLocator": "表一“1000米（分·秒）”",
+        "gender": "male",
+        "precision": "不足1秒不计入成绩"
+      },
+      "tableUnit": "分·秒",
+      "equipment": "封闭400米田径场，至少6条环形跑道；起终点标志明显，标志线清晰。",
+      "steps": [
+        "在弧形起跑线后站立准备，采用站立式起跑。",
+        "发令后从起跑线出发，起跑后不分跑道。",
+        "按右侧超越规则跑进，完成规定距离。",
+        "在6分钟之内跑完全程，由考务员按分、秒记录成绩。"
+      ],
+      "notes": [
+        "每组不超过15人；不得穿鞋底有钉的鞋。",
+        "发令前身体触及起跑线或线前地面，由考务员提醒、纠正。",
+        "跑进中踏进跑道左侧跑道线，成绩无效，计0分。",
+        "推、拉、阻挡他人，或由他人领跑、借助他人力量，成绩无效，计0分。",
+        "6分钟内未完成，考务员带离跑道，成绩按6分钟记录，计0分。"
+      ],
+      "reading": {
+        "precision": "分、秒；不足1秒不计入成绩。",
+        "attempts": "1次。",
+        "timingOrCounting": "男子1000米、女子800米；6分钟内完成。",
+        "judgment": "无犯规时有效；女子项目第4页明确参照男子项目要求。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            3
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "1000米跑（男）",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        3
+      ]
+    },
+    {
+      "id": "beijing_run_800m",
+      "metricCode": "beijing_run_800m",
+      "name": "800米跑（女）",
+      "categoryId": "category_1",
+      "category": "第一类·素质项目Ⅰ",
+      "unit": "秒",
+      "applicability": "北京 · 2026年 · 女生",
+      "examYear": 2026,
+      "genders": [
+        "female"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表一",
+          "caption": "800米跑（女）评分表（北京2026女；分·秒）",
+          "header": [
+            "分值",
+            "女（分·秒）"
+          ],
+          "rows": [
+            [
+              "8",
+              "3′55\""
+            ],
+            [
+              "7.5",
+              "4′01\""
+            ],
+            [
+              "7",
+              "4′08\""
+            ],
+            [
+              "6.5",
+              "4′16\""
+            ],
+            [
+              "6",
+              "4′25\""
+            ],
+            [
+              "5.5",
+              "4′35\""
+            ],
+            [
+              "5",
+              "4′45\""
+            ],
+            [
+              "4.5",
+              "4′49\""
+            ],
+            [
+              "4",
+              "4′53\""
+            ],
+            [
+              "3.5",
+              "4′57\""
+            ],
+            [
+              "3",
+              "5′02\""
+            ],
+            [
+              "2.5",
+              "5′07\""
+            ],
+            [
+              "2",
+              "5′12\""
+            ],
+            [
+              "1.5",
+              "5′19\""
+            ],
+            [
+              "1",
+              "5′26\""
+            ],
+            [
+              "0.5",
+              "5′35\""
+            ],
+            [
+              "0",
+              "5′36\""
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表一“800米（分·秒）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "lower",
+        "maxScore": 8,
+        "scores": [
+          8.0,
+          7.5,
+          7.0,
+          6.5,
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "female": [
+            235,
+            241,
+            248,
+            256,
+            265,
+            275,
+            285,
+            289,
+            293,
+            297,
+            302,
+            307,
+            312,
+            319,
+            326,
+            335,
+            336
+          ]
+        },
+        "category": "category_1",
+        "unit": "s",
+        "sourceLocator": "表一“800米（分·秒）”",
+        "gender": "female",
+        "precision": "不足1秒不计入成绩"
+      },
+      "tableUnit": "分·秒",
+      "equipment": "封闭400米田径场，至少6条环形跑道；起终点标志明显，标志线清晰。",
+      "steps": [
+        "在弧形起跑线后站立准备，采用站立式起跑。",
+        "发令后从起跑线出发，起跑后不分跑道。",
+        "按右侧超越规则跑进，完成规定距离。",
+        "在6分钟之内跑完全程，由考务员按分、秒记录成绩。"
+      ],
+      "notes": [
+        "每组不超过15人；不得穿鞋底有钉的鞋。",
+        "发令前身体触及起跑线或线前地面，由考务员提醒、纠正。",
+        "跑进中踏进跑道左侧跑道线，成绩无效，计0分。",
+        "推、拉、阻挡他人，或由他人领跑、借助他人力量，成绩无效，计0分。",
+        "6分钟内未完成，考务员带离跑道，成绩按6分钟记录，计0分。"
+      ],
+      "reading": {
+        "precision": "分、秒；不足1秒不计入成绩。",
+        "attempts": "1次。",
+        "timingOrCounting": "男子1000米、女子800米；6分钟内完成。",
+        "judgment": "无犯规时有效；女子项目第4页明确参照男子项目要求。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            3,
+            4
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "800米跑（女）",
+          "locators": {
+            "all": "第4页二、800米跑（女）：相关要求参照第3页1000米跑（男）。"
+          }
+        }
+      ],
+      "sourcePages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "beijing_pull_up",
+      "metricCode": "beijing_pull_up",
+      "name": "引体向上（男）",
+      "categoryId": "category_2",
+      "category": "第二类·素质项目Ⅱ",
+      "unit": "次",
+      "applicability": "北京 · 2026年 · 男生",
+      "examYear": 2026,
+      "genders": [
+        "male"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表一",
+          "caption": "引体向上（男）评分表（北京2026男；次）",
+          "header": [
+            "分值",
+            "男（次）"
+          ],
+          "rows": [
+            [
+              "8",
+              "11"
+            ],
+            [
+              "7.5",
+              "10"
+            ],
+            [
+              "7",
+              "9"
+            ],
+            [
+              "6.5",
+              "8"
+            ],
+            [
+              "6",
+              "7"
+            ],
+            [
+              "5.5",
+              "6"
+            ],
+            [
+              "5",
+              "5"
+            ],
+            [
+              "4.5",
+              "4"
+            ],
+            [
+              "4",
+              "3"
+            ],
+            [
+              "3.5",
+              "2"
+            ],
+            [
+              "3",
+              "1"
+            ],
+            [
+              "2.5",
+              ""
+            ],
+            [
+              "2",
+              ""
+            ],
+            [
+              "1.5",
+              ""
+            ],
+            [
+              "1",
+              ""
+            ],
+            [
+              "0.5",
+              ""
+            ],
+            [
+              "0",
+              ""
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表一“引体向上（次）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "higher",
+        "maxScore": 8,
+        "scores": [
+          8,
+          7.5,
+          7,
+          6.5,
+          6,
+          5.5,
+          5,
+          4.5,
+          4,
+          3.5,
+          3
+        ],
+        "thresholds": {
+          "male": [
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        "category": "category_2",
+        "unit": "count",
+        "sourceLocator": "表一“引体向上（次）”",
+        "gender": "male"
+      },
+      "tableUnit": "次",
+      "equipment": "不同高度高单杠供选择，杠下铺体操垫，备用秒表；统一提供可选用防滑镁粉。",
+      "steps": [
+        "发出考试信号后跳起，双手正握杠，握距约与肩同宽。",
+        "直臂悬垂，身体呈静止状态。",
+        "两臂同时屈臂向上引体，下颏超过横杠上沿。",
+        "还原充分伸直手臂，继续完成动作。",
+        "双手离杠、脚触地或两次完整动作间隔超过10秒，考试结束。"
+      ],
+      "notes": [
+        "未从静止状态开始，当次不计数。",
+        "两次动作间手臂未充分伸直，当次不计数。",
+        "下颏未超过杠面，当次不计数。",
+        "动作犯规可继续考试，累计符合标准的次数。"
+      ],
+      "reading": {
+        "precision": "整数次数。",
+        "attempts": "1次。",
+        "timingOrCounting": "从双手握杠开始；两次完整动作间隔不得超过10秒。",
+        "judgment": "仅符合标准动作计数。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            4
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "引体向上（男）",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        4
+      ]
+    },
+    {
+      "id": "beijing_incline_pull",
+      "metricCode": "beijing_incline_pull",
+      "name": "斜身引体（女）",
+      "categoryId": "category_2",
+      "category": "第二类·素质项目Ⅱ",
+      "unit": "次",
+      "applicability": "北京 · 2026年 · 女生",
+      "examYear": 2026,
+      "genders": [
+        "female"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表一",
+          "caption": "斜身引体（女）评分表（北京2026女；次）",
+          "header": [
+            "分值",
+            "女（次）"
+          ],
+          "rows": [
+            [
+              "8",
+              "40"
+            ],
+            [
+              "7.5",
+              "36"
+            ],
+            [
+              "7",
+              "32"
+            ],
+            [
+              "6.5",
+              "28"
+            ],
+            [
+              "6",
+              "24"
+            ],
+            [
+              "5.5",
+              "20"
+            ],
+            [
+              "5",
+              "16"
+            ],
+            [
+              "4.5",
+              "12"
+            ],
+            [
+              "4",
+              "10"
+            ],
+            [
+              "3.5",
+              "9"
+            ],
+            [
+              "3",
+              "8"
+            ],
+            [
+              "2.5",
+              "7"
+            ],
+            [
+              "2",
+              "6"
+            ],
+            [
+              "1.5",
+              "5"
+            ],
+            [
+              "1",
+              "4"
+            ],
+            [
+              "0.5",
+              "3"
+            ],
+            [
+              "0",
+              "2"
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表一“斜身引体（次）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "higher",
+        "maxScore": 8,
+        "scores": [
+          8.0,
+          7.5,
+          7.0,
+          6.5,
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "female": [
+            40,
+            36,
+            32,
+            28,
+            24,
+            20,
+            16,
+            12,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ]
+        },
+        "category": "category_2",
+        "unit": "count",
+        "sourceLocator": "表一“斜身引体（次）”",
+        "gender": "female"
+      },
+      "tableUnit": "次",
+      "equipment": "不同高度或可调低单杠，杠下体操垫；备用秒表和发令哨；统一可选用镁粉。",
+      "steps": [
+        "信号后双手正握杠，握距约与肩同宽，站立时杠面在胸前。",
+        "两脚前伸蹬地，全脚掌着地，身体挺直；两臂与躯干成90度，身体与地面夹角小于45度。",
+        "从静止开始屈臂引体，双脚不移动，下颏超过横杠上沿。",
+        "伸臂还原成直臂，完成1次，继续动作。",
+        "两次动作间隔超过10秒或单、双手离杠，考试结束。"
+      ],
+      "notes": [
+        "塌腰、挺腹或臀部上下摆动，当次不计数。",
+        "身体未保持挺直，当次不计数。",
+        "下颏未超过横杠上沿，当次不计数。",
+        "犯规当次不计数，但可以继续考试。"
+      ],
+      "reading": {
+        "precision": "整数次数。",
+        "attempts": "1次。",
+        "timingOrCounting": "屈臂引体后伸臂还原为1次；间隔超过10秒结束。",
+        "judgment": "累计符合标准的动作次数。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            4,
+            5
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "斜身引体（女）",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "beijing_parallel_bar_dip",
+      "metricCode": "beijing_parallel_bar_dip",
+      "name": "双杠臂屈伸（男）",
+      "categoryId": "category_2",
+      "category": "第二类·素质项目Ⅱ",
+      "unit": "次",
+      "applicability": "北京 · 2026年 · 男生",
+      "examYear": 2026,
+      "genders": [
+        "male"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表一",
+          "caption": "双杠臂屈伸（男）评分表（北京2026男；次）",
+          "header": [
+            "分值",
+            "男（次）"
+          ],
+          "rows": [
+            [
+              "8",
+              "11"
+            ],
+            [
+              "7.5",
+              "10"
+            ],
+            [
+              "7",
+              "9"
+            ],
+            [
+              "6.5",
+              "8"
+            ],
+            [
+              "6",
+              "7"
+            ],
+            [
+              "5.5",
+              "6"
+            ],
+            [
+              "5",
+              "5"
+            ],
+            [
+              "4.5",
+              "4"
+            ],
+            [
+              "4",
+              "3"
+            ],
+            [
+              "3.5",
+              "2"
+            ],
+            [
+              "3",
+              "1"
+            ],
+            [
+              "2.5",
+              ""
+            ],
+            [
+              "2",
+              ""
+            ],
+            [
+              "1.5",
+              ""
+            ],
+            [
+              "1",
+              ""
+            ],
+            [
+              "0.5",
+              ""
+            ],
+            [
+              "0",
+              ""
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表一“双杠臂屈伸（次）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "higher",
+        "maxScore": 8,
+        "scores": [
+          8,
+          7.5,
+          7,
+          6.5,
+          6,
+          5.5,
+          5,
+          4.5,
+          4,
+          3.5,
+          3
+        ],
+        "thresholds": {
+          "male": [
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        "category": "category_2",
+        "unit": "count",
+        "sourceLocator": "表一“双杠臂屈伸（次）”",
+        "gender": "male"
+      },
+      "tableUnit": "次",
+      "equipment": "不同高度、宽度双杠供选择，杠下铺体操垫；统一可选用镁粉。",
+      "steps": [
+        "信号后站在双杠一端，双手握杠跳上成直臂支撑。",
+        "身体静止后，两臂弯屈，大小臂夹角≤90度或肩低于肘。",
+        "两臂伸直成支撑，完成1次。",
+        "继续完成符合标准的动作。",
+        "双手离杠、脚触地或两次完整动作间隔超过10秒，考试结束。"
+      ],
+      "notes": [
+        "未从静止开始，当次不计数。",
+        "两次动作间两臂未伸直，当次不计数。",
+        "大小臂夹角大于90度或肩高于肘，当次不计数。",
+        "犯规当次不计数，但可以继续考试。"
+      ],
+      "reading": {
+        "precision": "整数次数。",
+        "attempts": "1次。",
+        "timingOrCounting": "双手撑杠开始；两次完整动作间隔超过10秒结束。",
+        "judgment": "累计有效次数；动作规格与违规条款的“或”均按原页保留。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            5
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "双杠臂屈伸（男）",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        5
+      ]
+    },
+    {
+      "id": "beijing_sit_up_1m",
+      "metricCode": "beijing_sit_up_1m",
+      "name": "仰卧起坐（女）",
+      "categoryId": "category_2",
+      "category": "第二类·素质项目Ⅱ",
+      "unit": "次",
+      "applicability": "北京 · 2026年 · 女生",
+      "examYear": 2026,
+      "genders": [
+        "female"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表一",
+          "caption": "仰卧起坐（女）评分表（北京2026女；次）",
+          "header": [
+            "分值",
+            "女（次）"
+          ],
+          "rows": [
+            [
+              "8",
+              "42"
+            ],
+            [
+              "7.5",
+              "40"
+            ],
+            [
+              "7",
+              "37"
+            ],
+            [
+              "6.5",
+              "34"
+            ],
+            [
+              "6",
+              "30"
+            ],
+            [
+              "5.5",
+              "26"
+            ],
+            [
+              "5",
+              "22"
+            ],
+            [
+              "4.5",
+              "21"
+            ],
+            [
+              "4",
+              "20"
+            ],
+            [
+              "3.5",
+              "19"
+            ],
+            [
+              "3",
+              "18"
+            ],
+            [
+              "2.5",
+              "17"
+            ],
+            [
+              "2",
+              "16"
+            ],
+            [
+              "1.5",
+              "15"
+            ],
+            [
+              "1",
+              "14"
+            ],
+            [
+              "0.5",
+              "13"
+            ],
+            [
+              "0",
+              "12"
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表一“仰卧起坐（次）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "higher",
+        "maxScore": 8,
+        "scores": [
+          8.0,
+          7.5,
+          7.0,
+          6.5,
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "female": [
+            42,
+            40,
+            37,
+            34,
+            30,
+            26,
+            22,
+            21,
+            20,
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12
+          ]
+        },
+        "category": "category_2",
+        "unit": "count",
+        "sourceLocator": "表一“仰卧起坐（次）”",
+        "gender": "female"
+      },
+      "tableUnit": "次",
+      "equipment": "平整地面，大体操垫或符合标准的仪器；备用秒表、发令哨。",
+      "steps": [
+        "仰卧，双手五指交叉贴头后，两臂打开，手背及手臂触垫。",
+        "双脚置垫上屈膝，大小腿呈直角，两腿可稍分开；按垫上考试要求压住脚背。",
+        "发令开始，起坐时双肘触及或超越两膝。",
+        "仰卧时两肩胛骨触垫，重复动作。",
+        "1分钟结束，累计有效动作次数。"
+      ],
+      "notes": [
+        "使用仪器设备考试时，他人不能辅助。",
+        "起坐双肘未触及或超越两膝，当次不计数。",
+        "仰卧肩胛骨未触垫，当次不计数。",
+        "臀部离垫，当次不计数；可以继续考试。"
+      ],
+      "reading": {
+        "precision": "整数次数。",
+        "attempts": "1次。",
+        "timingOrCounting": "发出考试信号起，1分钟内有效次数。",
+        "judgment": "仅符合动作标准者计数。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            5,
+            6
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "仰卧起坐（女）",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "beijing_medicine_ball_throw",
+      "metricCode": "beijing_medicine_ball_throw",
+      "name": "实心球",
+      "categoryId": "category_2",
+      "category": "第二类·素质项目Ⅱ",
+      "unit": "米",
+      "applicability": "北京 · 2026年 · 男女生",
+      "examYear": 2026,
+      "genders": [
+        "male",
+        "female"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表一",
+          "caption": "实心球评分表（北京2026男/女；米）",
+          "header": [
+            "分值",
+            "男（米）",
+            "女（米）"
+          ],
+          "rows": [
+            [
+              "8",
+              "9.5",
+              "7.6"
+            ],
+            [
+              "7.5",
+              "9.1",
+              "7.4"
+            ],
+            [
+              "7",
+              "8.7",
+              "7.2"
+            ],
+            [
+              "6.5",
+              "8.3",
+              "7.0"
+            ],
+            [
+              "6",
+              "7.9",
+              "6.8"
+            ],
+            [
+              "5.5",
+              "7.5",
+              "6.4"
+            ],
+            [
+              "5",
+              "7.0",
+              "6.0"
+            ],
+            [
+              "4.5",
+              "6.5",
+              "5.6"
+            ],
+            [
+              "4",
+              "6.0",
+              "5.2"
+            ],
+            [
+              "3.5",
+              "5.5",
+              "4.8"
+            ],
+            [
+              "3",
+              "5.0",
+              "4.4"
+            ],
+            [
+              "2.5",
+              "4.5",
+              "4.0"
+            ],
+            [
+              "2",
+              "4.0",
+              "3.6"
+            ],
+            [
+              "1.5",
+              "3.5",
+              "3.2"
+            ],
+            [
+              "1",
+              "3.0",
+              "2.8"
+            ],
+            [
+              "0.5",
+              "2.5",
+              "2.4"
+            ],
+            [
+              "0",
+              "2.4",
+              "2.3"
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表一“投掷实心球（米）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "higher",
+        "maxScore": 8,
+        "scores": [
+          8.0,
+          7.5,
+          7.0,
+          6.5,
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "male": [
+            9.5,
+            9.1,
+            8.7,
+            8.3,
+            7.9,
+            7.5,
+            7,
+            6.5,
+            6,
+            5.5,
+            5,
+            4.5,
+            4,
+            3.5,
+            3,
+            2.5,
+            2.4
+          ],
+          "female": [
+            7.6,
+            7.4,
+            7.2,
+            7,
+            6.8,
+            6.4,
+            6,
+            5.6,
+            5.2,
+            4.8,
+            4.4,
+            4,
+            3.6,
+            3.2,
+            2.8,
+            2.4,
+            2.3
+          ]
+        },
+        "category": "category_2",
+        "unit": "m",
+        "sourceLocator": "表一“投掷实心球（米）”",
+        "precision": "保留小数点后1位，3次取最好成绩"
+      },
+      "tableUnit": "米",
+      "equipment": "投掷区宽4米、长不少于20米，地面坚实平坦；2千克防滑实心球，周长420—780毫米；明显区域线。",
+      "steps": [
+        "信号后站在投掷线后，双脚前后或左右开立，面对投掷方向。",
+        "双手举球至头上方，稍后仰。",
+        "原地双手向前掷出，出手前双脚不移动。",
+        "出手同时一脚可向前迈一步，但不得触碰或越过投掷线。",
+        "测量投掷线后沿至球着地点后沿的垂直距离，3次取最好成绩。"
+      ],
+      "notes": [
+        "身体任何部位触及投掷线或线前地面，当次无效。",
+        "出手前助跑，当次无效。",
+        "投掷过程中双脚同时离地，当次无效。",
+        "犯规当次无效；3次犯规无成绩只能增加1次机会，仍犯规计0分。"
+      ],
+      "reading": {
+        "precision": "米，保留小数点后1位；原文未规定舍入方式。",
+        "attempts": "3次，取最好；仅3次犯规无成绩时增加1次。",
+        "timingOrCounting": "每次有效投掷测距。",
+        "judgment": "以有效最远距离计。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            6,
+            7
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "实心球",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "beijing_rope_skip_1m",
+      "metricCode": "beijing_rope_skip_1m",
+      "name": "1分钟跳绳",
+      "categoryId": "category_2",
+      "category": "第二类·素质项目Ⅱ",
+      "unit": "次",
+      "applicability": "北京 · 2026年 · 男女生",
+      "examYear": 2026,
+      "genders": [
+        "male",
+        "female"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表一",
+          "caption": "1分钟跳绳评分表（北京2026男/女；次）",
+          "header": [
+            "分值",
+            "男（次）",
+            "女（次）"
+          ],
+          "rows": [
+            [
+              "8",
+              "180",
+              "180"
+            ],
+            [
+              "7.5",
+              "175",
+              "175"
+            ],
+            [
+              "7",
+              "170",
+              "170"
+            ],
+            [
+              "6.5",
+              "165",
+              "165"
+            ],
+            [
+              "6",
+              "160",
+              "160"
+            ],
+            [
+              "5.5",
+              "150",
+              "150"
+            ],
+            [
+              "5",
+              "140",
+              "140"
+            ],
+            [
+              "4.5",
+              "130",
+              "130"
+            ],
+            [
+              "4",
+              "124",
+              "124"
+            ],
+            [
+              "3.5",
+              "118",
+              "118"
+            ],
+            [
+              "3",
+              "112",
+              "112"
+            ],
+            [
+              "2.5",
+              "106",
+              "106"
+            ],
+            [
+              "2",
+              "100",
+              "100"
+            ],
+            [
+              "1.5",
+              "94",
+              "94"
+            ],
+            [
+              "1",
+              "88",
+              "88"
+            ],
+            [
+              "0.5",
+              "82",
+              "82"
+            ],
+            [
+              "0",
+              "81",
+              "81"
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表一“1分钟跳绳（次）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "higher",
+        "maxScore": 8,
+        "scores": [
+          8.0,
+          7.5,
+          7.0,
+          6.5,
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "male": [
+            180,
+            175,
+            170,
+            165,
+            160,
+            150,
+            140,
+            130,
+            124,
+            118,
+            112,
+            106,
+            100,
+            94,
+            88,
+            82,
+            81
+          ],
+          "female": [
+            180,
+            175,
+            170,
+            165,
+            160,
+            150,
+            140,
+            130,
+            124,
+            118,
+            112,
+            106,
+            100,
+            94,
+            88,
+            82,
+            81
+          ]
+        },
+        "category": "category_2",
+        "unit": "count",
+        "sourceLocator": "表一“1分钟跳绳（次）”",
+        "attempts": "最多2次，取较好成绩"
+      },
+      "tableUnit": "次",
+      "equipment": "2米×2米平整干净坚实场地；2种长度跳绳，每种至少2条，材质各区统一；备用秒表和发令哨，或合规电子仪器。",
+      "steps": [
+        "调绳至适宜长度，将绳甩至身后，静止准备。",
+        "发令后采用正摇单摇，双脚跳或单脚交换跳。",
+        "每摇绳1个回环跳过1次，计1次。",
+        "结束信号发出即停止，记录1分钟次数。",
+        "可选择第二次考试，两次间隔最长3分钟，取较好成绩。"
+      ],
+      "notes": [
+        "绊脚未完成当次不计数，可继续考试。",
+        "跳出考试区域，当次考试终止。",
+        "选择第二次却超过3分钟间隔，取消第二次机会。",
+        "只能使用规定的正摇单摇双脚跳或单脚交换跳。"
+      ],
+      "reading": {
+        "precision": "整数次数。",
+        "attempts": "最多2次，取较好；间隔最长3分钟。",
+        "timingOrCounting": "开始信号至结束信号，1分钟。",
+        "judgment": "一回环跳过1次为有效；出区终止。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            7
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "1分钟跳绳",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        7
+      ]
+    },
+    {
+      "id": "beijing_vertical_jump",
+      "metricCode": "beijing_vertical_jump",
+      "name": "原地纵跳摸高",
+      "categoryId": "category_2",
+      "category": "第二类·素质项目Ⅱ",
+      "unit": "厘米",
+      "applicability": "北京 · 2026年 · 男女生",
+      "examYear": 2026,
+      "genders": [
+        "male",
+        "female"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表一",
+          "caption": "原地纵跳摸高评分表（北京2026男/女；厘米）",
+          "header": [
+            "分值",
+            "男（厘米）",
+            "女（厘米）"
+          ],
+          "rows": [
+            [
+              "8",
+              "56",
+              "45"
+            ],
+            [
+              "7.5",
+              "53",
+              "43"
+            ],
+            [
+              "7",
+              "50",
+              "41"
+            ],
+            [
+              "6.5",
+              "47",
+              "39"
+            ],
+            [
+              "6",
+              "44",
+              "37"
+            ],
+            [
+              "5.5",
+              "41",
+              "35"
+            ],
+            [
+              "5",
+              "38",
+              "33"
+            ],
+            [
+              "4.5",
+              "35",
+              "30"
+            ],
+            [
+              "4",
+              "31",
+              "27"
+            ],
+            [
+              "3.5",
+              "27",
+              "24"
+            ],
+            [
+              "3",
+              "23",
+              "21"
+            ],
+            [
+              "2.5",
+              "20",
+              "18"
+            ],
+            [
+              "2",
+              "17",
+              "15"
+            ],
+            [
+              "1.5",
+              "14",
+              "12"
+            ],
+            [
+              "1",
+              "11",
+              "9"
+            ],
+            [
+              "0.5",
+              "8",
+              "6"
+            ],
+            [
+              "0",
+              "7",
+              "5"
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表一“原地纵跳摸高（厘米）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "higher",
+        "maxScore": 8,
+        "scores": [
+          8.0,
+          7.5,
+          7.0,
+          6.5,
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "male": [
+            56,
+            53,
+            50,
+            47,
+            44,
+            41,
+            38,
+            35,
+            31,
+            27,
+            23,
+            20,
+            17,
+            14,
+            11,
+            8,
+            7
+          ],
+          "female": [
+            45,
+            43,
+            41,
+            39,
+            37,
+            35,
+            33,
+            30,
+            27,
+            24,
+            21,
+            18,
+            15,
+            12,
+            9,
+            6,
+            5
+          ]
+        },
+        "category": "category_2",
+        "unit": "cm",
+        "sourceLocator": "表一“原地纵跳摸高（厘米）”",
+        "precision": "取整数，3次取最好成绩"
+      },
+      "tableUnit": "厘米",
+      "equipment": "平整干净坚实地面及合规摸高仪；地面以与摸高器正投影重合的0.6米线段为一边画正方形起跳区；手指标记物。",
+      "steps": [
+        "单手最长手指涂标记物，侧对仪器站在区内，脚不触线。",
+        "挺胸直立、直臂上举，大臂贴耳，掌指伸直，用最长手指触仪器留第一标记。",
+        "双脚保持不动，原地双脚起跳。",
+        "用同一手指再次触仪器留第二标记。",
+        "取两标记距离；每次跳前均重新做第一标记，3次取最好。"
+      ],
+      "notes": [
+        "第一标记后至起跳前脚部移动，浪费1次机会或当次无效。",
+        "落地点无区域限制。",
+        "不得穿鞋底有钉的鞋。",
+        "犯规当次无效；3次犯规无成绩只能增加1次机会，仍犯规计0分。"
+      ],
+      "reading": {
+        "precision": "厘米，取整数；原文未规定舍入方式。",
+        "attempts": "3次，取最好；仅3次犯规无成绩时增加1次。",
+        "timingOrCounting": "第二标记与当次第一标记的距离。",
+        "judgment": "不得用固定站立摸高代替每次第一标记。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            7,
+            8
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "原地纵跳摸高",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "beijing_standing_long_jump",
+      "metricCode": "beijing_standing_long_jump",
+      "name": "立定跳远",
+      "categoryId": "category_2",
+      "category": "第二类·素质项目Ⅱ",
+      "unit": "米",
+      "applicability": "北京 · 2026年 · 男女生",
+      "examYear": 2026,
+      "genders": [
+        "male",
+        "female"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表一",
+          "caption": "立定跳远评分表（北京2026男/女；米）",
+          "header": [
+            "分值",
+            "男（米）",
+            "女（米）"
+          ],
+          "rows": [
+            [
+              "8",
+              "2.25",
+              "1.76"
+            ],
+            [
+              "7.5",
+              "2.20",
+              "1.72"
+            ],
+            [
+              "7",
+              "2.15",
+              "1.68"
+            ],
+            [
+              "6.5",
+              "2.09",
+              "1.63"
+            ],
+            [
+              "6",
+              "2.02",
+              "1.58"
+            ],
+            [
+              "5.5",
+              "1.94",
+              "1.52"
+            ],
+            [
+              "5",
+              "1.85",
+              "1.46"
+            ],
+            [
+              "4.5",
+              "1.83",
+              "1.44"
+            ],
+            [
+              "4",
+              "1.81",
+              "1.42"
+            ],
+            [
+              "3.5",
+              "1.78",
+              "1.39"
+            ],
+            [
+              "3",
+              "1.75",
+              "1.36"
+            ],
+            [
+              "2.5",
+              "1.72",
+              "1.33"
+            ],
+            [
+              "2",
+              "1.69",
+              "1.30"
+            ],
+            [
+              "1.5",
+              "1.66",
+              "1.27"
+            ],
+            [
+              "1",
+              "1.63",
+              "1.24"
+            ],
+            [
+              "0.5",
+              "1.60",
+              "1.21"
+            ],
+            [
+              "0",
+              "1.59",
+              "1.20"
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表一“立定跳远（米）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "higher",
+        "maxScore": 8,
+        "scores": [
+          8.0,
+          7.5,
+          7.0,
+          6.5,
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "male": [
+            2.25,
+            2.2,
+            2.15,
+            2.09,
+            2.02,
+            1.94,
+            1.85,
+            1.83,
+            1.81,
+            1.78,
+            1.75,
+            1.72,
+            1.69,
+            1.66,
+            1.63,
+            1.6,
+            1.59
+          ],
+          "female": [
+            1.76,
+            1.72,
+            1.68,
+            1.63,
+            1.58,
+            1.52,
+            1.46,
+            1.44,
+            1.42,
+            1.39,
+            1.36,
+            1.33,
+            1.3,
+            1.27,
+            1.24,
+            1.21,
+            1.2
+          ]
+        },
+        "category": "category_2",
+        "unit": "m",
+        "sourceLocator": "表一“立定跳远（米）”",
+        "precision": "保留小数点后2位，3次取最好成绩"
+      },
+      "tableUnit": "米",
+      "equipment": "4米×2米场地，沙坑或平坦地面，起跳区坚实平坦、起跳线明显；钢尺或合规专用仪器。",
+      "steps": [
+        "信号后双脚自然分开，站在起跳线后。",
+        "原地双脚同时起跳。",
+        "落在落地区。",
+        "量起跳线后沿至身体任何着地最近点后沿的垂直距离。",
+        "可跳3次，取最好有效成绩。"
+      ],
+      "notes": [
+        "起跳前脚步移动或离地，当次无效。",
+        "起跳前身体触线或线前地面，当次无效。",
+        "双脚依次或垫步蹬离地面，当次无效。",
+        "不得穿鞋底有钉的鞋。",
+        "犯规当次无效；3次犯规无成绩只能增加1次机会，仍犯规计0分。"
+      ],
+      "reading": {
+        "precision": "米，保留小数点后2位；原文未规定舍入方式。",
+        "attempts": "3次，取最好；仅3次犯规无成绩时增加1次。",
+        "timingOrCounting": "测最近着地点，非仅脚跟位置。",
+        "judgment": "有效最远距离。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            8
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "立定跳远",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        8
+      ]
+    },
+    {
+      "id": "beijing_football_skill",
+      "metricCode": "beijing_football_skill",
+      "name": "足球",
+      "categoryId": "category_3",
+      "category": "第三类·运动能力Ⅰ",
+      "unit": "秒",
+      "applicability": "北京 · 2026年 · 男女生",
+      "examYear": 2026,
+      "genders": [
+        "male",
+        "female"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表二",
+          "caption": "足球评分表（北京2026男/女；秒）",
+          "header": [
+            "分值",
+            "男（秒）",
+            "女（秒）"
+          ],
+          "rows": [
+            [
+              "8",
+              "19.5",
+              "21.0"
+            ],
+            [
+              "7.5",
+              "20.0",
+              "21.5"
+            ],
+            [
+              "7",
+              "20.5",
+              "22.0"
+            ],
+            [
+              "6.5",
+              "21.0",
+              "22.5"
+            ],
+            [
+              "6",
+              "21.5",
+              "23.0"
+            ],
+            [
+              "5.5",
+              "22.0",
+              "23.5"
+            ],
+            [
+              "5",
+              "22.5",
+              "24.0"
+            ],
+            [
+              "4.5",
+              "23.0",
+              "24.5"
+            ],
+            [
+              "4",
+              "23.8",
+              "25.3"
+            ],
+            [
+              "3.5",
+              "24.6",
+              "26.1"
+            ],
+            [
+              "3",
+              "25.4",
+              "26.9"
+            ],
+            [
+              "2.5",
+              "26.2",
+              "27.7"
+            ],
+            [
+              "2",
+              "27.0",
+              "28.5"
+            ],
+            [
+              "1.5",
+              "27.8",
+              "29.3"
+            ],
+            [
+              "1",
+              "28.6",
+              "30.1"
+            ],
+            [
+              "0.5",
+              "29.4",
+              "30.9"
+            ],
+            [
+              "0",
+              "29.5",
+              "31.0"
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表二“足球--运球射门（秒）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "lower",
+        "maxScore": 8,
+        "scores": [
+          8.0,
+          7.5,
+          7.0,
+          6.5,
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "male": [
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22,
+            22.5,
+            23,
+            23.8,
+            24.6,
+            25.4,
+            26.2,
+            27,
+            27.8,
+            28.6,
+            29.4,
+            29.5
+          ],
+          "female": [
+            21,
+            21.5,
+            22,
+            22.5,
+            23,
+            23.5,
+            24,
+            24.5,
+            25.3,
+            26.1,
+            26.9,
+            27.7,
+            28.5,
+            29.3,
+            30.1,
+            30.9,
+            31
+          ]
+        },
+        "category": "category_3",
+        "unit": "s",
+        "sourceLocator": "表二“足球--运球射门（秒）”",
+        "precision": "保留小数点后1位，第2位非0进1，2次取较好成绩"
+      },
+      "tableUnit": "秒",
+      "equipment": "天然或人工草坪；2号球门5.5米×2米，统一5号足球4个（1备用）；考试区12米×10.5米，折返线距底线9米，起始线与折返线间为射门区；区外距起始线0.5米设5.5米置球线，4球等距摆放。",
+      "steps": [
+        "自主确定起始球和后续用球顺序，站置球线后准备，发令计时。",
+        "运球出发至折返线，球触及或越线后返回起始线。",
+        "球触及或越过起始线再折返，第二次往返至射门区内射门，方法不限。射门完成条件为球整体越过考试区底线或击中球门立柱、横梁。",
+        "射门后跑至下一球，重复完整组合；前3球全部进门即结束。",
+        "完成3套但不足3个进球时不停表，必须用备用球再完成1套；第4次射门完成即结束。",
+        "最后一球整体越过考试区底线或击中门柱、横梁时停表。"
+      ],
+      "notes": [
+        "故意手或手臂触球，当次成绩无效。",
+        "未在射门区射门，当次无效。",
+        "折返时球未触及或越过折返线、起始线，当次无效。",
+        "球出边线或未按要求完成考试，当次无效。",
+        "两次均犯规无成绩，只增1次；仍犯规计0分。",
+        "不能自带球；此规则无罚加秒条款，射失按备用球完整组合继续计时。"
+      ],
+      "reading": {
+        "precision": "秒，保留1位小数，第2位非0进1。",
+        "attempts": "2次取较好；两次犯规无成绩时仅增1次。",
+        "timingOrCounting": "发令开始，最后射门球越底线或中柱／梁停止。",
+        "judgment": "按完成用时，不把射门成功数直接相加作积分。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            9,
+            10
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "足球—运球／射门",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        9,
+        10
+      ],
+      "diagramSourcePages": [
+        9
+      ],
+      "routeSourcePages": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "beijing_basketball_skill",
+      "metricCode": "beijing_basketball_skill",
+      "name": "篮球",
+      "categoryId": "category_3",
+      "category": "第三类·运动能力Ⅰ",
+      "unit": "秒",
+      "applicability": "北京 · 2026年 · 男女生",
+      "examYear": 2026,
+      "genders": [
+        "male",
+        "female"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表二",
+          "caption": "篮球评分表（北京2026男/女；秒）",
+          "header": [
+            "分值",
+            "男（秒）",
+            "女（秒）"
+          ],
+          "rows": [
+            [
+              "8",
+              "30.0",
+              "35.0"
+            ],
+            [
+              "7.5",
+              "32.0",
+              "37.0"
+            ],
+            [
+              "7",
+              "33.5",
+              "38.5"
+            ],
+            [
+              "6.5",
+              "35.0",
+              "40.0"
+            ],
+            [
+              "6",
+              "36.5",
+              "41.5"
+            ],
+            [
+              "5.5",
+              "37.5",
+              "42.5"
+            ],
+            [
+              "5",
+              "38.5",
+              "43.5"
+            ],
+            [
+              "4.5",
+              "39.5",
+              "44.5"
+            ],
+            [
+              "4",
+              "40.0",
+              "45.0"
+            ],
+            [
+              "3.5",
+              "40.5",
+              "45.5"
+            ],
+            [
+              "3",
+              "41.0",
+              "46.0"
+            ],
+            [
+              "2.5",
+              "42.0",
+              "47.0"
+            ],
+            [
+              "2",
+              "43.0",
+              "48.0"
+            ],
+            [
+              "1.5",
+              "44.0",
+              "49.0"
+            ],
+            [
+              "1",
+              "45.0",
+              "50.0"
+            ],
+            [
+              "0.5",
+              "46.0",
+              "51.0"
+            ],
+            [
+              "0",
+              "46.1",
+              "51.1"
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表二“篮球--运球投篮（秒）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "lower",
+        "maxScore": 8,
+        "scores": [
+          8.0,
+          7.5,
+          7.0,
+          6.5,
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "male": [
+            30,
+            32,
+            33.5,
+            35,
+            36.5,
+            37.5,
+            38.5,
+            39.5,
+            40,
+            40.5,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            46.1
+          ],
+          "female": [
+            35,
+            37,
+            38.5,
+            40,
+            41.5,
+            42.5,
+            43.5,
+            44.5,
+            45,
+            45.5,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            51.1
+          ]
+        },
+        "category": "category_3",
+        "unit": "s",
+        "sourceLocator": "表二“篮球--运球投篮（秒）”",
+        "precision": "保留小数点后1位，第2位非0进1，2次取较好成绩"
+      },
+      "tableUnit": "秒",
+      "equipment": "标准28米×15米篮球半场，篮圈3.05米，统一6号篮球；弧顶及罚球线延长线与三分线交点作切线，三分线外距切线1.5米设3条0.05米×2米起终点线。",
+      "steps": [
+        "自主选起点，持球站起点线后，发令开始运球并计时。",
+        "行进间投篮；投进后自行接球，运球返回三分线。",
+        "未投进必须补篮，最多补2次；第一次补进或补2次后接到球，方可运球返回。",
+        "身体触及或越过三分线后转身，继续下一套；共完成4套。",
+        "最后一次投篮后自主选终点，人与球均通过终点即停表。"
+      ],
+      "notes": [
+        "球失控但未出场可重新控球继续，计时不停；球出场或终点人球分离，当次成绩无效。",
+        "运球投篮违例，当次往返无效。",
+        "补篮未触筐或板，不计补篮次数，重新补篮。",
+        "折返身体未触及或越过三分线，提醒返回三分线；不足4次往返提醒继续。",
+        "两次均犯规无成绩，仅增1次；仍犯规计0分。",
+        "不能自带球；补做在原计时中继续。"
+      ],
+      "reading": {
+        "precision": "秒，保留1位小数，第2位非0进1。",
+        "attempts": "2次取较好；两次犯规无成绩时仅增1次。",
+        "timingOrCounting": "发令至最后人与球均过终点；共4套完整动作组合。",
+        "judgment": "投篮未进按规定补篮。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            10,
+            11,
+            12
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "篮球—运球／投篮",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        10,
+        11,
+        12
+      ],
+      "routeSourcePages": [
+        11
+      ],
+      "diagramSourcePages": [
+        11
+      ]
+    },
+    {
+      "id": "beijing_volleyball_skill",
+      "metricCode": "beijing_volleyball_skill",
+      "name": "排球",
+      "categoryId": "category_3",
+      "category": "第三类·运动能力Ⅰ",
+      "unit": "积分",
+      "applicability": "北京 · 2026年 · 男女生",
+      "examYear": 2026,
+      "genders": [
+        "male",
+        "female"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表二",
+          "caption": "排球评分表（北京2026男/女；积分）",
+          "header": [
+            "分值",
+            "男（积分）",
+            "女（积分）"
+          ],
+          "rows": [
+            [
+              "8",
+              "14.0",
+              "14.0"
+            ],
+            [
+              "7.5",
+              "13.5",
+              "13.5"
+            ],
+            [
+              "7",
+              "13.0",
+              "13.0"
+            ],
+            [
+              "6.5",
+              "12.5",
+              "12.5"
+            ],
+            [
+              "6",
+              "12.0",
+              "12.0"
+            ],
+            [
+              "5.5",
+              "10.5",
+              "10.5"
+            ],
+            [
+              "5",
+              "8.5",
+              "8.5"
+            ],
+            [
+              "4.5",
+              "6.5",
+              "6.5"
+            ],
+            [
+              "4",
+              "6.0",
+              "6.0"
+            ],
+            [
+              "3.5",
+              "5.5",
+              "5.5"
+            ],
+            [
+              "3",
+              "4.0",
+              "4.0"
+            ],
+            [
+              "2.5",
+              "3.5",
+              "3.5"
+            ],
+            [
+              "2",
+              "3.0",
+              "3.0"
+            ],
+            [
+              "1.5",
+              "1.5",
+              "1.5"
+            ],
+            [
+              "1",
+              "1.0",
+              "1.0"
+            ],
+            [
+              "0.5",
+              "0.5",
+              "0.5"
+            ],
+            [
+              "0",
+              "0.0",
+              "0.0"
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表二“排球--垫球发球（积分）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "higher",
+        "maxScore": 8,
+        "scores": [
+          8.0,
+          7.5,
+          7.0,
+          6.5,
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "male": [
+            14,
+            13.5,
+            13,
+            12.5,
+            12,
+            10.5,
+            8.5,
+            6.5,
+            6,
+            5.5,
+            4,
+            3.5,
+            3,
+            1.5,
+            1,
+            0.5,
+            0
+          ],
+          "female": [
+            14,
+            13.5,
+            13,
+            12.5,
+            12,
+            10.5,
+            8.5,
+            6.5,
+            6,
+            5.5,
+            4,
+            3.5,
+            3,
+            1.5,
+            1,
+            0.5,
+            0
+          ]
+        },
+        "category": "category_3",
+        "unit": "point",
+        "sourceLocator": "表二“排球--垫球发球（积分）”"
+      },
+      "tableUnit": "积分",
+      "equipment": "排球场，男网高2.35米、女2.15米；统一5号排球或初中生用球及可移动球筐；垫球区9米×9米，依次考试区9×4米、间隔区9×2米、得分区9×3米；发球场18米×9米。",
+      "steps": [
+        "同一场地先垫球后发球；进入考试区，发令后将球抛起即计时。",
+        "连续正面双手垫自抛球，高度不低于网高；双脚不得踏及或跨出考试区标识线。",
+        "球从空中落得分区每次1分，落间隔区0.5分，未落两区、垫球过网或犯规0分。",
+        "完成规定垫球数量立即移至发球区，不停表，用下手或正面上手连续发球。",
+        "发球过网落得分区，每次1分，压线界内；犯规或失误0分。",
+        "提前发完规定球数或时间到结束；垫球积分＋发球积分累计后换算考试分数。"
+      ],
+      "notes": [
+        "垫球两区共有线：得分／间隔共有线算得分区，间隔／考试共有线算间隔区，线宽计入相应区域。",
+        "垫球抛后接住或落地未垫，重新取球继续；连击、非规定动作或踏跨考试区线，当次0分。",
+        "发球抛后接住或落地未发，重新取球继续；非规定发球动作、击球时踏边线端线或跨入场区，当次0分。",
+        "可放弃垫球继续发球，但不可再返回垫球；主动退出取退出时积分。",
+        "不能自带球；无成绩仅增加1次机会，仍无成绩计0分。",
+        "规则未列规定球数和总时限的具体数值。"
+      ],
+      "reading": {
+        "precision": "积分，单次垫球0／0.5／1分，单次发球0／1分。",
+        "attempts": "1次；无成绩仅增1次。",
+        "timingOrCounting": "抛起第一球起计时，转发球不停表；规定数量或时间到结束，数值待补官方来源。",
+        "judgment": "两子项积分相加，再按评分表换分。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            12,
+            13,
+            14
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "排球—垫球／发球",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        12,
+        13,
+        14
+      ],
+      "subtests": [
+        {
+          "name": "垫球",
+          "score": "0、0.5或1分／球",
+          "pdfPages": [
+            12,
+            13
+          ]
+        },
+        {
+          "name": "发球",
+          "score": "0或1分／球",
+          "pdfPages": [
+            14
+          ]
+        }
+      ],
+      "diagramSourcePages": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "beijing_table_tennis_skill",
+      "metricCode": "beijing_table_tennis_skill",
+      "name": "乒乓球",
+      "categoryId": "category_3",
+      "category": "第三类·运动能力Ⅰ",
+      "unit": "次",
+      "applicability": "北京 · 2026年 · 男女生",
+      "examYear": 2026,
+      "genders": [
+        "male",
+        "female"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表二",
+          "caption": "乒乓球评分表（北京2026男/女；次）",
+          "header": [
+            "分值",
+            "男（次）",
+            "女（次）"
+          ],
+          "rows": [
+            [
+              "8",
+              "56",
+              "56"
+            ],
+            [
+              "7.5",
+              "52",
+              "52"
+            ],
+            [
+              "7",
+              "48",
+              "48"
+            ],
+            [
+              "6.5",
+              "44",
+              "44"
+            ],
+            [
+              "6",
+              "40",
+              "40"
+            ],
+            [
+              "5.5",
+              "36",
+              "36"
+            ],
+            [
+              "5",
+              "32",
+              "32"
+            ],
+            [
+              "4.5",
+              "28",
+              "28"
+            ],
+            [
+              "4",
+              "24",
+              "24"
+            ],
+            [
+              "3.5",
+              "21",
+              "21"
+            ],
+            [
+              "3",
+              "18",
+              "18"
+            ],
+            [
+              "2.5",
+              "15",
+              "15"
+            ],
+            [
+              "2",
+              "12",
+              "12"
+            ],
+            [
+              "1.5",
+              "9",
+              "9"
+            ],
+            [
+              "1",
+              "6",
+              "6"
+            ],
+            [
+              "0.5",
+              "3",
+              "3"
+            ],
+            [
+              "0",
+              "2",
+              "2"
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表二“乒乓球--左推右攻发球（次数）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "higher",
+        "maxScore": 8,
+        "scores": [
+          8.0,
+          7.5,
+          7.0,
+          6.5,
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "male": [
+            56,
+            52,
+            48,
+            44,
+            40,
+            36,
+            32,
+            28,
+            24,
+            21,
+            18,
+            15,
+            12,
+            9,
+            6,
+            3,
+            2
+          ],
+          "female": [
+            56,
+            52,
+            48,
+            44,
+            40,
+            36,
+            32,
+            28,
+            24,
+            21,
+            18,
+            15,
+            12,
+            9,
+            6,
+            3,
+            2
+          ]
+        },
+        "category": "category_3",
+        "unit": "count",
+        "sourceLocator": "表二“乒乓球--左推右攻发球（次数）”"
+      },
+      "tableUnit": "次",
+      "equipment": "室内运动地板／地胶；球台2.74×1.525米、高0.76米；网高15.25厘米，网柱外缘距边线15.25厘米；统一40+非赛璐珞球；可自带合规球拍；上旋球发球机置对面中间、出球口高于台面，可移动球盆。球拍大小、形状不限，两面无光泽；有覆盖物时一面黑色，另一面为明显区别黑色和球色的明亮颜色。",
+      "steps": [
+        "站本方端线外中间，发令后发球机向两半区定点交替送上旋球，同时计时。",
+        "右手持拍先左半区反手、后右半区正手；左手持拍落点相反，先右反手后左正手，连续交替。",
+        "球落对面台面为有效击球1次；完成规定数量后立即转发球，不停表。",
+        "选左或右半区固定站位；首次发球落对角半区，第二次另一半区，落点交替重复。",
+        "一手持拍另一手每次只持1球，球静止手掌上，持球手在端线外、台面以上；垂直抛起离手，下落时击球，先触本方台面再越网触对面台面有效。",
+        "提前发完规定球数或时间到结束；左推右攻有效次数＋有效发球次数累计，再换算考试分数。"
+      ],
+      "notes": [
+        "左推右攻不按反手正手顺序、未落对面台面、击打未触本方台面的来球，当次不计数。",
+        "发球不能换站位，身体任何部位不能越中线；不按交替落点、只触本方或直接触对面、未抛球、擦网、越中线，当次不计数。",
+        "发球机故障可立即停考申请重考；未立即停止而继续，中途不能再主动停止，考后补齐机器失误球数。",
+        "可放弃左推右攻后继续发球，但不可再返回；主动退出按退出时有效次数。",
+        "只考1次；无成绩仅加1次，仍无成绩0分；可自带拍不能自带球。",
+        "规则未列球数与总时限的具体数值。"
+      ],
+      "reading": {
+        "precision": "整数有效次数，两子项相加。",
+        "attempts": "1次；无成绩仅增1次。",
+        "timingOrCounting": "机器开始送球起计时，转发球不停表；球数或时限数值待补官方来源。",
+        "judgment": "单次犯规不计数，考试继续。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "乒乓球—左推右攻／发球",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "subtests": [
+        {
+          "name": "左推右攻",
+          "score": "有效回球1次",
+          "pdfPages": [
+            15,
+            16
+          ]
+        },
+        {
+          "name": "发球",
+          "score": "有效发球1次",
+          "pdfPages": [
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "diagramSourcePages": [
+        16,
+        17
+      ]
+    },
+    {
+      "id": "beijing_badminton_skill",
+      "metricCode": "beijing_badminton_skill",
+      "name": "羽毛球",
+      "categoryId": "category_3",
+      "category": "第三类·运动能力Ⅰ",
+      "unit": "积分",
+      "applicability": "北京 · 2026年 · 男女生",
+      "examYear": 2026,
+      "genders": [
+        "male",
+        "female"
+      ],
+      "maxScore": 8,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表二",
+          "caption": "羽毛球评分表（北京2026男/女；积分）",
+          "header": [
+            "分值",
+            "男（积分）",
+            "女（积分）"
+          ],
+          "rows": [
+            [
+              "8",
+              "20.0",
+              "18.0"
+            ],
+            [
+              "7.5",
+              "19.0",
+              "17.0"
+            ],
+            [
+              "7",
+              "18.0",
+              "16.0"
+            ],
+            [
+              "6.5",
+              "17.0",
+              "15.0"
+            ],
+            [
+              "6",
+              "16.0",
+              "14.0"
+            ],
+            [
+              "5.5",
+              "15.0",
+              "13.0"
+            ],
+            [
+              "5",
+              "14.0",
+              "12.0"
+            ],
+            [
+              "4.5",
+              "13.0",
+              "11.0"
+            ],
+            [
+              "4",
+              "12.0",
+              "10.0"
+            ],
+            [
+              "3.5",
+              "11.0",
+              "9.0"
+            ],
+            [
+              "3",
+              "10.0",
+              "8.0"
+            ],
+            [
+              "2.5",
+              "9.0",
+              "7.0"
+            ],
+            [
+              "2",
+              "7.0",
+              "6.0"
+            ],
+            [
+              "1.5",
+              "5.0",
+              "5.0"
+            ],
+            [
+              "1",
+              "3.0",
+              "3.0"
+            ],
+            [
+              "0.5",
+              "1.0",
+              "1.0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表二“羽毛球--正反手挑球发高远球（积分）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "higher",
+        "maxScore": 8,
+        "scores": [
+          8.0,
+          7.5,
+          7.0,
+          6.5,
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "male": [
+            20,
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            7,
+            5,
+            3,
+            1,
+            0
+          ],
+          "female": [
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            3,
+            1,
+            0
+          ]
+        },
+        "category": "category_3",
+        "unit": "point",
+        "sourceLocator": "表二“羽毛球--正反手挑球发高远球（积分）”"
+      },
+      "tableUnit": "积分",
+      "equipment": "室内木地板或地胶单打场13.4×5.18米，中央网高1.524米、边线1.55米；距球网3.35米设高2.5米宽6.1米隔挡网；两个1×1米送球区，前发球线向端线1米设回位线；统一球，可自带合规拍，可移动球盆。",
+      "steps": [
+        "站回位线后、中线附近，发令机器开始送球，同时计时；先右半区后左半区。",
+        "右手拍正手、反手交替挑球；左手拍反手、正手交替；每次击后主动回位，脚触及或越过回位线。",
+        "挑球越隔挡网，第一落点在0.5分区得0.5分，在1分区及分区线得1分，失误0分。",
+        "完成规定挑球数立即移至合规发球位置，不停表；用正手发高远球，每次只持1球，连续发至对角线区，不得换区。",
+        "发球越隔挡网，第一落点在对角0.5分区得0.5分，在对角1分区及分区线得1分，失误或犯规0分。",
+        "提前发完规定球数或时间到结束；挑球积分＋发球积分累计后换算考试分数。"
+      ],
+      "notes": [
+        "挑球非正反手挑球动作、未落得分区、未过隔挡网、回位脚未触及或越过回位线，当次0分。",
+        "发球脚触发球线或中线、未发至对角、未落得分区、未过隔挡网，当次0分。",
+        "发球机故障可立即停止申请重考；继续后中途不得再主动停止，考后补齐机器失误球数。",
+        "放弃挑球可继续发球但不能回挑球；主动退出取退出时积分。",
+        "可自带拍不得自带球；拍总长≤68厘米、宽≤23厘米，弦面长≤28厘米、宽≤22厘米。",
+        "两种击球得分区均为对面端线内1米的1分带、再向网方向1.5米的0.5分带（第19、20页图）；规则未列球数、总时限的具体数值。"
+      ],
+      "reading": {
+        "precision": "积分，单次0／0.5／1分，两子项相加。",
+        "attempts": "1次；无成绩仅加1次，仍无成绩0分。",
+        "timingOrCounting": "机器送球开始计时，转发球不停表；规定数量或时限未列数值。",
+        "judgment": "挑球、发球分别按动作、落点及过网判分。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "羽毛球—正反手挑球／发高远球",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "subtests": [
+        {
+          "name": "正反手挑球",
+          "score": "0、0.5或1分／球",
+          "pdfPages": [
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "name": "发高远球",
+          "score": "0、0.5或1分／球",
+          "pdfPages": [
+            20,
+            21
+          ]
+        }
+      ],
+      "diagramSourcePages": [
+        19,
+        20
+      ]
+    },
+    {
+      "id": "beijing_gym_bars_male",
+      "metricCode": "beijing_gym_bars_male",
+      "name": "体操双杠组合Ⅰ（男）",
+      "categoryId": "category_4",
+      "category": "第四类·运动能力Ⅱ",
+      "unit": "按规则",
+      "applicability": "北京 · 2026年 · 男生",
+      "examYear": 2026,
+      "genders": [
+        "male"
+      ],
+      "maxScore": 6,
+      "scoringMode": "structured_rubric",
+      "tables": [
+        {
+          "number": "三·体操·动作质量",
+          "caption": "体操双杠组合Ⅰ（男）动作质量（北京2026男；满分5分）",
+          "header": [
+            "顺序",
+            "规定动作",
+            "分值"
+          ],
+          "rows": [
+            [
+              "1",
+              "杠端跳上成分腿坐",
+              "1"
+            ],
+            [
+              "2",
+              "前进一次成分腿坐",
+              "1"
+            ],
+            [
+              "3",
+              "弹杠举腿进杠",
+              "1"
+            ],
+            [
+              "4",
+              "支撑后摆转体180 度成分腿坐",
+              "1"
+            ],
+            [
+              "5",
+              "弹杠进杠前摆下",
+              "1"
+            ]
+          ]
+        },
+        {
+          "number": "三·体操·动作表现",
+          "caption": "体操双杠组合Ⅰ（男）动作表现（北京2026男；满分1分）",
+          "header": [
+            "等级",
+            "标准描述",
+            "赋分"
+          ],
+          "rows": [
+            [
+              "一等",
+              "60秒内完成考试；动作遗漏和错误累计不超过1次；态度认真；整套动作连贯、有节奏；开始、结束动作规范。",
+              "1"
+            ],
+            [
+              "二等",
+              "60秒内未完成考试；动作遗漏和错误累计超过1次；态度不认真；动作很不连贯，缺乏节奏；开始、结束动作不规范。",
+              "0"
+            ]
+          ]
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "体操“双杠组合Ⅰ（男）”动作质量与动作表现量表",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "category": "category_4",
+        "gender": "male",
+        "maxScore": 6,
+        "qualityScore": 5,
+        "performanceScore": 1,
+        "timeLimitSeconds": 60,
+        "actionWeights": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "performanceLevels": {
+          "first": 1,
+          "second": 0
+        },
+        "sourceLocator": "体操“双杠组合Ⅰ（男）”动作质量与动作表现量表"
+      },
+      "scoringNotes": [
+        "60秒内按规定顺序完成整套动作，动作无遗漏和错误，动作质量获得5分；出现动作遗漏或错误，扣除相应动作的分值。",
+        "动作质量得分与动作表现得分之和为该项目得分。"
+      ],
+      "equipment": "平坦地面并合理铺体操垫；双杠长3—3.5米、高1.3—1.7米，内侧间距0.41—0.61米，不同规格供选，统一可选镁粉。",
+      "steps": [
+        "听信号进入场地，面向考务员举右手示意，计时开始。",
+        "依次完成：杠端跳上成分腿坐。",
+        "依次完成：前进一次成分腿坐。",
+        "依次完成：弹杠举腿进杠。",
+        "依次完成：支撑后摆转体180度成分腿坐。",
+        "依次完成：弹杠进杠前摆下。",
+        "完成后面向考务员立正示意结束。"
+      ],
+      "notes": [
+        "必须按规定动作顺序完成，不把男女组合相互替换。",
+        "动作规格以国家审定教材相应教学内容为准；教材修订适用届次依原页。",
+        "动作遗漏或错误可继续，但扣相应动作分值和动作表现分数。",
+        "单次60秒内完成；超时终止，按60秒内已完成动作评分并扣相应动作表现分数。",
+        "每块场地3名考务员独立评分，取平均值；两次考试取较好。"
+      ],
+      "reading": {
+        "precision": "3人平均分，四舍五入保留1位小数。",
+        "attempts": "2次，取较好。",
+        "timingOrCounting": "举右手示意开始，60秒限时；成套完成后立正示意结束。",
+        "judgment": "按动作质量和动作表现评分。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            21,
+            22
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "双杠组合Ⅰ（男）",
+          "locators": {
+            "equipment": "体操双杠第21页（三）；技巧第22页（二）；武术第23页（三）；女子及南拳按原页参照条款",
+            "steps": "（一）考试内容及（四）考试操作要求；按项目参照条款展开",
+            "notes": "第21—22页体操操作要求或第23—24页武术操作要求；各项其他要求",
+            "reading": "体操第22页首段；武术第24页首段"
+          }
+        }
+      ],
+      "sourcePages": [
+        21,
+        22
+      ],
+      "actionSequence": [
+        {
+          "order": 1,
+          "action": "杠端跳上成分腿坐",
+          "sourcePages": [
+            21
+          ],
+          "locator": "（一）考试内容，第1动作"
+        },
+        {
+          "order": 2,
+          "action": "前进一次成分腿坐",
+          "sourcePages": [
+            21
+          ],
+          "locator": "（一）考试内容，第2动作"
+        },
+        {
+          "order": 3,
+          "action": "弹杠举腿进杠",
+          "sourcePages": [
+            21
+          ],
+          "locator": "（一）考试内容，第3动作"
+        },
+        {
+          "order": 4,
+          "action": "支撑后摆转体180度成分腿坐",
+          "sourcePages": [
+            21
+          ],
+          "locator": "（一）考试内容，第4动作"
+        },
+        {
+          "order": 5,
+          "action": "弹杠进杠前摆下",
+          "sourcePages": [
+            21
+          ],
+          "locator": "（一）考试内容，第5动作"
+        }
+      ],
+      "diagramSourcePages": []
+    },
+    {
+      "id": "beijing_gym_bars_female",
+      "metricCode": "beijing_gym_bars_female",
+      "name": "体操双杠组合Ⅱ（女）",
+      "categoryId": "category_4",
+      "category": "第四类·运动能力Ⅱ",
+      "unit": "按规则",
+      "applicability": "北京 · 2026年 · 女生",
+      "examYear": 2026,
+      "genders": [
+        "female"
+      ],
+      "maxScore": 6,
+      "scoringMode": "structured_rubric",
+      "tables": [
+        {
+          "number": "三·体操·动作质量",
+          "caption": "体操双杠组合Ⅱ（女）动作质量（北京2026女；满分5分）",
+          "header": [
+            "顺序",
+            "规定动作",
+            "分值"
+          ],
+          "rows": [
+            [
+              "1",
+              "杠端跳上成分腿坐",
+              "1"
+            ],
+            [
+              "2",
+              "前进一次",
+              "1"
+            ],
+            [
+              "3",
+              "成外侧坐",
+              "1"
+            ],
+            [
+              "4",
+              "转体180 度成分腿坐",
+              "1"
+            ],
+            [
+              "5",
+              "弹杠进杠前摆下",
+              "1"
+            ]
+          ]
+        },
+        {
+          "number": "三·体操·动作表现",
+          "caption": "体操双杠组合Ⅱ（女）动作表现（北京2026女；满分1分）",
+          "header": [
+            "等级",
+            "标准描述",
+            "赋分"
+          ],
+          "rows": [
+            [
+              "一等",
+              "60秒内完成考试；动作遗漏和错误累计不超过1次；态度认真；整套动作连贯、有节奏；开始、结束动作规范。",
+              "1"
+            ],
+            [
+              "二等",
+              "60秒内未完成考试；动作遗漏和错误累计超过1次；态度不认真；动作很不连贯，缺乏节奏；开始、结束动作不规范。",
+              "0"
+            ]
+          ]
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "体操“双杠组合Ⅱ（女）”动作质量与动作表现量表",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "category": "category_4",
+        "gender": "female",
+        "maxScore": 6,
+        "qualityScore": 5,
+        "performanceScore": 1,
+        "timeLimitSeconds": 60,
+        "actionWeights": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "performanceLevels": {
+          "first": 1,
+          "second": 0
+        },
+        "sourceLocator": "体操“双杠组合Ⅱ（女）”动作质量与动作表现量表"
+      },
+      "scoringNotes": [
+        "60秒内按规定顺序完成整套动作，动作无遗漏和错误，动作质量获得5分；出现动作遗漏或错误，扣除相应动作的分值。",
+        "动作质量得分与动作表现得分之和为该项目得分。"
+      ],
+      "equipment": "平坦地面并合理铺体操垫；双杠长3—3.5米、高1.3—1.7米，内侧间距0.41—0.61米，不同规格供选，统一可选镁粉。",
+      "steps": [
+        "听信号进入场地，面向考务员举右手示意，计时开始。",
+        "依次完成：杠端跳上成分腿坐。",
+        "依次完成：前进一次。",
+        "依次完成：成外侧坐。",
+        "依次完成：转体180度成分腿坐。",
+        "依次完成：弹杠进杠前摆下。",
+        "完成后面向考务员立正示意结束。"
+      ],
+      "notes": [
+        "必须按规定动作顺序完成，不把男女组合相互替换。",
+        "动作规格以国家审定教材相应教学内容为准；教材修订适用届次依原页。",
+        "动作遗漏或错误可继续，但扣相应动作分值和动作表现分数。",
+        "单次60秒内完成；超时终止，按60秒内已完成动作评分并扣相应动作表现分数。",
+        "每块场地3名考务员独立评分，取平均值；两次考试取较好。"
+      ],
+      "reading": {
+        "precision": "3人平均分，四舍五入保留1位小数。",
+        "attempts": "2次，取较好。",
+        "timingOrCounting": "举右手示意开始，60秒限时；成套完成后立正示意结束。",
+        "judgment": "按动作质量和动作表现评分。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            21,
+            22
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "双杠组合Ⅱ（女）",
+          "locators": {
+            "equipment": "体操双杠第21页（三）；技巧第22页（二）；武术第23页（三）；女子及南拳按原页参照条款",
+            "steps": "（一）考试内容及（四）考试操作要求；按项目参照条款展开",
+            "notes": "第21—22页体操操作要求或第23—24页武术操作要求；各项其他要求",
+            "reading": "体操第22页首段；武术第24页首段"
+          }
+        }
+      ],
+      "sourcePages": [
+        21,
+        22
+      ],
+      "actionSequence": [
+        {
+          "order": 1,
+          "action": "杠端跳上成分腿坐",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第1动作"
+        },
+        {
+          "order": 2,
+          "action": "前进一次",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第2动作"
+        },
+        {
+          "order": 3,
+          "action": "成外侧坐",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第3动作"
+        },
+        {
+          "order": 4,
+          "action": "转体180度成分腿坐",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第4动作"
+        },
+        {
+          "order": 5,
+          "action": "弹杠进杠前摆下",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第5动作"
+        }
+      ],
+      "diagramSourcePages": []
+    },
+    {
+      "id": "beijing_gym_floor_male",
+      "metricCode": "beijing_gym_floor_male",
+      "name": "体操技巧组合Ⅰ（男）",
+      "categoryId": "category_4",
+      "category": "第四类·运动能力Ⅱ",
+      "unit": "按规则",
+      "applicability": "北京 · 2026年 · 男生",
+      "examYear": 2026,
+      "genders": [
+        "male"
+      ],
+      "maxScore": 6,
+      "scoringMode": "structured_rubric",
+      "tables": [
+        {
+          "number": "三·体操·动作质量",
+          "caption": "体操技巧组合Ⅰ（男）动作质量（北京2026男；满分5分）",
+          "header": [
+            "顺序",
+            "规定动作",
+            "分值"
+          ],
+          "rows": [
+            [
+              "1",
+              "鱼跃前滚翻",
+              "1"
+            ],
+            [
+              "2",
+              "交叉转体180 度",
+              "1"
+            ],
+            [
+              "3",
+              "后滚成肩肘倒立",
+              "1"
+            ],
+            [
+              "4",
+              "前滚成蹲立",
+              "1"
+            ],
+            [
+              "5",
+              "挺身跳",
+              "1"
+            ]
+          ]
+        },
+        {
+          "number": "三·体操·动作表现",
+          "caption": "体操技巧组合Ⅰ（男）动作表现（北京2026男；满分1分）",
+          "header": [
+            "等级",
+            "标准描述",
+            "赋分"
+          ],
+          "rows": [
+            [
+              "一等",
+              "60秒内完成考试；动作遗漏和错误累计不超过1次；态度认真；整套动作连贯、有节奏；开始、结束动作规范。",
+              "1"
+            ],
+            [
+              "二等",
+              "60秒内未完成考试；动作遗漏和错误累计超过1次；态度不认真；动作很不连贯，缺乏节奏；开始、结束动作不规范。",
+              "0"
+            ]
+          ]
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "体操“技巧组合Ⅰ（男）”动作质量与动作表现量表",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "category": "category_4",
+        "gender": "male",
+        "maxScore": 6,
+        "qualityScore": 5,
+        "performanceScore": 1,
+        "timeLimitSeconds": 60,
+        "actionWeights": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "performanceLevels": {
+          "first": 1,
+          "second": 0
+        },
+        "sourceLocator": "体操“技巧组合Ⅰ（男）”动作质量与动作表现量表"
+      },
+      "scoringNotes": [
+        "60秒内按规定顺序完成整套动作，动作无遗漏和错误，动作质量获得5分；出现动作遗漏或错误，扣除相应动作的分值。",
+        "动作质量得分与动作表现得分之和为该项目得分。"
+      ],
+      "equipment": "平坦地面，成套动作在体操垫上完成；垫长2米宽1米厚0.1米，不少于3块，摆放依第22页图。原图为3块垫沿长边方向接成6米×1米。",
+      "steps": [
+        "听信号进入场地，面向考务员举右手示意，计时开始。",
+        "依次完成：鱼跃前滚翻。",
+        "依次完成：交叉转体180度。",
+        "依次完成：后滚成肩肘倒立。",
+        "依次完成：前滚成蹲立。",
+        "依次完成：挺身跳。",
+        "完成后面向考务员立正示意结束。"
+      ],
+      "notes": [
+        "必须按规定动作顺序完成，不把男女组合相互替换。",
+        "动作规格以国家审定教材相应教学内容为准；教材修订适用届次依原页。",
+        "动作遗漏或错误可继续，但扣相应动作分值和动作表现分数。",
+        "单次60秒内完成；超时终止，按60秒内已完成动作评分并扣相应动作表现分数。",
+        "每块场地3名考务员独立评分，取平均值；两次考试取较好。"
+      ],
+      "reading": {
+        "precision": "3人平均分，四舍五入保留1位小数。",
+        "attempts": "2次，取较好。",
+        "timingOrCounting": "举右手示意开始，60秒限时；成套完成后立正示意结束。",
+        "judgment": "按动作质量和动作表现评分。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            21,
+            22
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "技巧组合Ⅰ（男）",
+          "locators": {
+            "equipment": "体操双杠第21页（三）；技巧第22页（二）；武术第23页（三）；女子及南拳按原页参照条款",
+            "steps": "（一）考试内容及（四）考试操作要求；按项目参照条款展开",
+            "notes": "第21—22页体操操作要求或第23—24页武术操作要求；各项其他要求",
+            "reading": "体操第22页首段；武术第24页首段"
+          }
+        }
+      ],
+      "sourcePages": [
+        21,
+        22
+      ],
+      "actionSequence": [
+        {
+          "order": 1,
+          "action": "鱼跃前滚翻",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第1动作"
+        },
+        {
+          "order": 2,
+          "action": "交叉转体180度",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第2动作"
+        },
+        {
+          "order": 3,
+          "action": "后滚成肩肘倒立",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第3动作"
+        },
+        {
+          "order": 4,
+          "action": "前滚成蹲立",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第4动作"
+        },
+        {
+          "order": 5,
+          "action": "挺身跳",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第5动作"
+        }
+      ],
+      "diagramSourcePages": [
+        22
+      ]
+    },
+    {
+      "id": "beijing_gym_floor_female",
+      "metricCode": "beijing_gym_floor_female",
+      "name": "体操技巧组合Ⅱ（女）",
+      "categoryId": "category_4",
+      "category": "第四类·运动能力Ⅱ",
+      "unit": "按规则",
+      "applicability": "北京 · 2026年 · 女生",
+      "examYear": 2026,
+      "genders": [
+        "female"
+      ],
+      "maxScore": 6,
+      "scoringMode": "structured_rubric",
+      "tables": [
+        {
+          "number": "三·体操·动作质量",
+          "caption": "体操技巧组合Ⅱ（女）动作质量（北京2026女；满分5分）",
+          "header": [
+            "顺序",
+            "规定动作",
+            "分值"
+          ],
+          "rows": [
+            [
+              "1",
+              "前滚翻",
+              "1"
+            ],
+            [
+              "2",
+              "交叉转体180 度",
+              "1"
+            ],
+            [
+              "3",
+              "后滚成肩肘倒立",
+              "1"
+            ],
+            [
+              "4",
+              "前滚成蹲立",
+              "1"
+            ],
+            [
+              "5",
+              "挺身跳",
+              "1"
+            ]
+          ]
+        },
+        {
+          "number": "三·体操·动作表现",
+          "caption": "体操技巧组合Ⅱ（女）动作表现（北京2026女；满分1分）",
+          "header": [
+            "等级",
+            "标准描述",
+            "赋分"
+          ],
+          "rows": [
+            [
+              "一等",
+              "60秒内完成考试；动作遗漏和错误累计不超过1次；态度认真；整套动作连贯、有节奏；开始、结束动作规范。",
+              "1"
+            ],
+            [
+              "二等",
+              "60秒内未完成考试；动作遗漏和错误累计超过1次；态度不认真；动作很不连贯，缺乏节奏；开始、结束动作不规范。",
+              "0"
+            ]
+          ]
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "体操“技巧组合Ⅱ（女）”动作质量与动作表现量表",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "category": "category_4",
+        "gender": "female",
+        "maxScore": 6,
+        "qualityScore": 5,
+        "performanceScore": 1,
+        "timeLimitSeconds": 60,
+        "actionWeights": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "performanceLevels": {
+          "first": 1,
+          "second": 0
+        },
+        "sourceLocator": "体操“技巧组合Ⅱ（女）”动作质量与动作表现量表"
+      },
+      "scoringNotes": [
+        "60秒内按规定顺序完成整套动作，动作无遗漏和错误，动作质量获得5分；出现动作遗漏或错误，扣除相应动作的分值。",
+        "动作质量得分与动作表现得分之和为该项目得分。"
+      ],
+      "equipment": "平坦地面，成套动作在体操垫上完成；垫长2米宽1米厚0.1米，不少于3块，摆放依第22页图。原图为3块垫沿长边方向接成6米×1米。",
+      "steps": [
+        "听信号进入场地，面向考务员举右手示意，计时开始。",
+        "依次完成：前滚翻。",
+        "依次完成：交叉转体180度。",
+        "依次完成：后滚成肩肘倒立。",
+        "依次完成：前滚成蹲立。",
+        "依次完成：挺身跳。",
+        "完成后面向考务员立正示意结束。"
+      ],
+      "notes": [
+        "必须按规定动作顺序完成，不把男女组合相互替换。",
+        "动作规格以国家审定教材相应教学内容为准；教材修订适用届次依原页。",
+        "动作遗漏或错误可继续，但扣相应动作分值和动作表现分数。",
+        "单次60秒内完成；超时终止，按60秒内已完成动作评分并扣相应动作表现分数。",
+        "每块场地3名考务员独立评分，取平均值；两次考试取较好。"
+      ],
+      "reading": {
+        "precision": "3人平均分，四舍五入保留1位小数。",
+        "attempts": "2次，取较好。",
+        "timingOrCounting": "举右手示意开始，60秒限时；成套完成后立正示意结束。",
+        "judgment": "按动作质量和动作表现评分。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            21,
+            22,
+            23
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "技巧组合Ⅱ（女）",
+          "locators": {
+            "equipment": "体操双杠第21页（三）；技巧第22页（二）；武术第23页（三）；女子及南拳按原页参照条款",
+            "steps": "（一）考试内容及（四）考试操作要求；按项目参照条款展开",
+            "notes": "第21—22页体操操作要求或第23—24页武术操作要求；各项其他要求",
+            "reading": "体操第22页首段；武术第24页首段"
+          }
+        }
+      ],
+      "sourcePages": [
+        21,
+        22,
+        23
+      ],
+      "actionSequence": [
+        {
+          "order": 1,
+          "action": "前滚翻",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第1动作"
+        },
+        {
+          "order": 2,
+          "action": "交叉转体180度",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第2动作"
+        },
+        {
+          "order": 3,
+          "action": "后滚成肩肘倒立",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第3动作"
+        },
+        {
+          "order": 4,
+          "action": "前滚成蹲立",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第4动作"
+        },
+        {
+          "order": 5,
+          "action": "挺身跳",
+          "sourcePages": [
+            22
+          ],
+          "locator": "（一）考试内容，第5动作"
+        }
+      ],
+      "diagramSourcePages": [
+        22
+      ]
+    },
+    {
+      "id": "beijing_changquan",
+      "metricCode": "beijing_changquan",
+      "name": "健身长拳套路",
+      "categoryId": "category_4",
+      "category": "第四类·运动能力Ⅱ",
+      "unit": "按规则",
+      "applicability": "北京 · 2026年 · 男女生",
+      "examYear": 2026,
+      "genders": [
+        "male",
+        "female"
+      ],
+      "maxScore": 6,
+      "scoringMode": "structured_rubric",
+      "tables": [
+        {
+          "number": "三·武术·动作质量",
+          "caption": "健身长拳套路动作质量（北京2026男/女；满分5分）",
+          "header": [
+            "顺序",
+            "规定动作",
+            "分值"
+          ],
+          "rows": [
+            [
+              "1",
+              "起势",
+              "0.5"
+            ],
+            [
+              "2",
+              "开步双劈",
+              "0.5"
+            ],
+            [
+              "3",
+              "按掌前推",
+              "0.5"
+            ],
+            [
+              "4",
+              "搂手勾踢",
+              "0.5"
+            ],
+            [
+              "5",
+              "缠腕斩拳",
+              "0.5"
+            ],
+            [
+              "6",
+              "闪身冲拳",
+              "0.5"
+            ],
+            [
+              "7",
+              "弹踢穿顶",
+              "0.5"
+            ],
+            [
+              "8",
+              "掼拳戳脚",
+              "0.5"
+            ],
+            [
+              "9",
+              "闪身砍推",
+              "0.5"
+            ],
+            [
+              "10",
+              "收势",
+              "0.5"
+            ]
+          ]
+        },
+        {
+          "number": "三·武术·演练水平",
+          "caption": "健身长拳套路演练水平（北京2026男/女；满分1分）",
+          "header": [
+            "等级",
+            "标准描述",
+            "赋分"
+          ],
+          "rows": [
+            [
+              "一等",
+              "60秒内完成考试；动作遗漏和错误累计不超过2次；劲力充足、精神饱满、节奏分明，手眼身法步配合协调；长拳风格（动作舒展，用力顺达，动迅静定）/南拳风格（动作紧凑，步法稳固，发声响亮）突出；开始、结束的抱拳礼规范。",
+              "1"
+            ],
+            [
+              "二等",
+              "60秒内未完成考试；动作遗漏和错误累计超过2次；无劲力，精神懈怠，缺乏节奏，没有手眼身法步的配合；不能体现长拳/南拳风格；开始、结束的抱拳礼不规范。",
+              "0"
+            ]
+          ]
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "武术“健身长拳套路”动作质量与演练水平量表",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "category": "category_4",
+        "gender": "all",
+        "maxScore": 6,
+        "qualityScore": 5,
+        "performanceScore": 1,
+        "timeLimitSeconds": 60,
+        "actionWeights": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "performanceLevels": {
+          "first": 1,
+          "second": 0
+        },
+        "sourceLocator": "武术“健身长拳套路”动作质量与演练水平量表"
+      },
+      "scoringNotes": [
+        "60秒内按规定顺序完成整套动作，动作无遗漏和错误，动作质量获得5分；出现动作遗漏或错误，扣除相应动作的分值。",
+        "动作质量得分与演练水平得分之和为该项目得分。"
+      ],
+      "equipment": "平坦7米×4米场地，边线与指定起始位置清晰，场地设置安全合理；有条件的区在体育馆内。",
+      "steps": [
+        "听考试信号进入场地，站指定起始位置。",
+        "听开始信号行抱拳礼，考务员开始计时。",
+        "依次完成：起势。",
+        "依次完成：开步双劈。",
+        "依次完成：按掌前推。",
+        "依次完成：搂手勾踢。",
+        "依次完成：缠腕斩拳。",
+        "依次完成：闪身冲拳。",
+        "依次完成：弹踢穿顶。",
+        "依次完成：掼拳戳脚。",
+        "依次完成：闪身砍推。",
+        "依次完成：收势。",
+        "完成后面向考务员行抱拳礼，结束考试。"
+      ],
+      "notes": [
+        "按规定顺序完成全部动作，最后一个动作为第二个“架桥双砸拳”。",
+        "动作规格以国家审定教材相应教学内容为准；教材修订适用届次依原页。",
+        "遗漏或错误可继续，但扣相应动作分值和演练水平分数。",
+        "60秒内完成，超时终止，按已完成动作评分并扣相应演练水平分数。",
+        "3名考务员独立评分取平均值，两次取较好；男女采用相同套路。"
+      ],
+      "reading": {
+        "precision": "3人平均分，四舍五入保留1位小数。",
+        "attempts": "2次，取较好。",
+        "timingOrCounting": "开始信号后抱拳礼开始计时，限60秒。",
+        "judgment": "按动作质量和演练水平评分。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            23,
+            24
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "健身长拳套路",
+          "locators": {
+            "equipment": "体操双杠第21页（三）；技巧第22页（二）；武术第23页（三）；女子及南拳按原页参照条款",
+            "steps": "（一）考试内容及（四）考试操作要求；按项目参照条款展开",
+            "notes": "第21—22页体操操作要求或第23—24页武术操作要求；各项其他要求",
+            "reading": "体操第22页首段；武术第24页首段"
+          }
+        }
+      ],
+      "sourcePages": [
+        23,
+        24
+      ],
+      "actionSequence": [
+        {
+          "order": 1,
+          "action": "起势",
+          "sourcePages": [
+            23
+          ],
+          "locator": "（一）考试内容，第1动作"
+        },
+        {
+          "order": 2,
+          "action": "开步双劈",
+          "sourcePages": [
+            23
+          ],
+          "locator": "（一）考试内容，第2动作"
+        },
+        {
+          "order": 3,
+          "action": "按掌前推",
+          "sourcePages": [
+            23
+          ],
+          "locator": "（一）考试内容，第3动作"
+        },
+        {
+          "order": 4,
+          "action": "搂手勾踢",
+          "sourcePages": [
+            23
+          ],
+          "locator": "（一）考试内容，第4动作"
+        },
+        {
+          "order": 5,
+          "action": "缠腕斩拳",
+          "sourcePages": [
+            23
+          ],
+          "locator": "（一）考试内容，第5动作"
+        },
+        {
+          "order": 6,
+          "action": "闪身冲拳",
+          "sourcePages": [
+            23
+          ],
+          "locator": "（一）考试内容，第6动作"
+        },
+        {
+          "order": 7,
+          "action": "弹踢穿顶",
+          "sourcePages": [
+            23
+          ],
+          "locator": "（一）考试内容，第7动作"
+        },
+        {
+          "order": 8,
+          "action": "掼拳戳脚",
+          "sourcePages": [
+            23
+          ],
+          "locator": "（一）考试内容，第8动作"
+        },
+        {
+          "order": 9,
+          "action": "闪身砍推",
+          "sourcePages": [
+            23
+          ],
+          "locator": "（一）考试内容，第9动作"
+        },
+        {
+          "order": 10,
+          "action": "收势",
+          "sourcePages": [
+            23
+          ],
+          "locator": "（一）考试内容，第10动作"
+        }
+      ],
+      "diagramSourcePages": [
+        23
+      ]
+    },
+    {
+      "id": "beijing_nanquan",
+      "metricCode": "beijing_nanquan",
+      "name": "健身南拳套路",
+      "categoryId": "category_4",
+      "category": "第四类·运动能力Ⅱ",
+      "unit": "按规则",
+      "applicability": "北京 · 2026年 · 男女生",
+      "examYear": 2026,
+      "genders": [
+        "male",
+        "female"
+      ],
+      "maxScore": 6,
+      "scoringMode": "structured_rubric",
+      "tables": [
+        {
+          "number": "三·武术·动作质量",
+          "caption": "健身南拳套路动作质量（北京2026男/女；满分5分）",
+          "header": [
+            "顺序",
+            "规定动作",
+            "分值"
+          ],
+          "rows": [
+            [
+              "1",
+              "起势",
+              "0.5"
+            ],
+            [
+              "2",
+              "架桥双砸拳",
+              "0.5"
+            ],
+            [
+              "3",
+              "缠桥切掌",
+              "0.5"
+            ],
+            [
+              "4",
+              "麒麟步双蝶掌",
+              "1"
+            ],
+            [
+              "5",
+              "踩腿撞拳",
+              "0.5"
+            ],
+            [
+              "6",
+              "挡桥冲拳",
+              "0.5"
+            ],
+            [
+              "7",
+              "闪身虎爪",
+              "0.5"
+            ],
+            [
+              "8",
+              "上步抽拳",
+              "0.5"
+            ],
+            [
+              "9",
+              "架桥双砸拳",
+              "0.5"
+            ]
+          ]
+        },
+        {
+          "number": "三·武术·演练水平",
+          "caption": "健身南拳套路演练水平（北京2026男/女；满分1分）",
+          "header": [
+            "等级",
+            "标准描述",
+            "赋分"
+          ],
+          "rows": [
+            [
+              "一等",
+              "60秒内完成考试；动作遗漏和错误累计不超过2次；劲力充足、精神饱满、节奏分明，手眼身法步配合协调；长拳风格（动作舒展，用力顺达，动迅静定）/南拳风格（动作紧凑，步法稳固，发声响亮）突出；开始、结束的抱拳礼规范。",
+              "1"
+            ],
+            [
+              "二等",
+              "60秒内未完成考试；动作遗漏和错误累计超过2次；无劲力，精神懈怠，缺乏节奏，没有手眼身法步的配合；不能体现长拳/南拳风格；开始、结束的抱拳礼不规范。",
+              "0"
+            ]
+          ]
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "武术“健身南拳套路”动作质量与演练水平量表",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "category": "category_4",
+        "gender": "all",
+        "maxScore": 6,
+        "qualityScore": 5,
+        "performanceScore": 1,
+        "timeLimitSeconds": 60,
+        "actionWeights": [
+          0.5,
+          0.5,
+          0.5,
+          1,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "performanceLevels": {
+          "first": 1,
+          "second": 0
+        },
+        "sourceLocator": "武术“健身南拳套路”动作质量与演练水平量表"
+      },
+      "scoringNotes": [
+        "60秒内按规定顺序完成整套动作，动作无遗漏和错误，动作质量获得5分；出现动作遗漏或错误，扣除相应动作的分值。",
+        "动作质量得分与演练水平得分之和为该项目得分。"
+      ],
+      "equipment": "平坦7米×4米场地，边线与指定起始位置清晰，场地设置安全合理；有条件的区在体育馆内。",
+      "steps": [
+        "听考试信号进入场地，站指定起始位置。",
+        "听开始信号行抱拳礼，考务员开始计时。",
+        "依次完成：起势。",
+        "依次完成：架桥双砸拳。",
+        "依次完成：缠桥切掌。",
+        "依次完成：麒麟步双蝶掌。",
+        "依次完成：踩腿撞拳。",
+        "依次完成：挡桥冲拳。",
+        "依次完成：闪身虎爪。",
+        "依次完成：上步抽拳。",
+        "依次完成：架桥双砸拳。",
+        "完成后面向考务员行抱拳礼，结束考试。"
+      ],
+      "notes": [
+        "按规定顺序完成全部动作，最后一个动作为第二个“架桥双砸拳”。",
+        "动作规格以国家审定教材相应教学内容为准；教材修订适用届次依原页。",
+        "遗漏或错误可继续，但扣相应动作分值和演练水平分数。",
+        "60秒内完成，超时终止，按已完成动作评分并扣相应演练水平分数。",
+        "3名考务员独立评分取平均值，两次取较好；男女采用相同套路。"
+      ],
+      "reading": {
+        "precision": "3人平均分，四舍五入保留1位小数。",
+        "attempts": "2次，取较好。",
+        "timingOrCounting": "开始信号后抱拳礼开始计时，限60秒。",
+        "judgment": "按动作质量和演练水平评分。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            23,
+            24
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "健身南拳套路",
+          "locators": {
+            "equipment": "体操双杠第21页（三）；技巧第22页（二）；武术第23页（三）；女子及南拳按原页参照条款",
+            "steps": "（一）考试内容及（四）考试操作要求；按项目参照条款展开",
+            "notes": "第21—22页体操操作要求或第23—24页武术操作要求；各项其他要求",
+            "reading": "体操第22页首段；武术第24页首段"
+          }
+        }
+      ],
+      "sourcePages": [
+        23,
+        24
+      ],
+      "actionSequence": [
+        {
+          "order": 1,
+          "action": "起势",
+          "sourcePages": [
+            24
+          ],
+          "locator": "（一）考试内容，第1动作"
+        },
+        {
+          "order": 2,
+          "action": "架桥双砸拳",
+          "sourcePages": [
+            24
+          ],
+          "locator": "（一）考试内容，第2动作"
+        },
+        {
+          "order": 3,
+          "action": "缠桥切掌",
+          "sourcePages": [
+            24
+          ],
+          "locator": "（一）考试内容，第3动作"
+        },
+        {
+          "order": 4,
+          "action": "麒麟步双蝶掌",
+          "sourcePages": [
+            24
+          ],
+          "locator": "（一）考试内容，第4动作"
+        },
+        {
+          "order": 5,
+          "action": "踩腿撞拳",
+          "sourcePages": [
+            24
+          ],
+          "locator": "（一）考试内容，第5动作"
+        },
+        {
+          "order": 6,
+          "action": "挡桥冲拳",
+          "sourcePages": [
+            24
+          ],
+          "locator": "（一）考试内容，第6动作"
+        },
+        {
+          "order": 7,
+          "action": "闪身虎爪",
+          "sourcePages": [
+            24
+          ],
+          "locator": "（一）考试内容，第7动作"
+        },
+        {
+          "order": 8,
+          "action": "上步抽拳",
+          "sourcePages": [
+            24
+          ],
+          "locator": "（一）考试内容，第8动作"
+        },
+        {
+          "order": 9,
+          "action": "架桥双砸拳",
+          "sourcePages": [
+            24
+          ],
+          "locator": "（一）考试内容，第9动作"
+        }
+      ],
+      "diagramSourcePages": [
+        23
+      ]
+    },
+    {
+      "id": "beijing_swim_100m",
+      "metricCode": "beijing_swim_100m",
+      "name": "100米游泳",
+      "categoryId": "category_4",
+      "category": "第四类·运动能力Ⅱ",
+      "unit": "秒",
+      "applicability": "北京 · 2026年 · 男女生",
+      "examYear": 2026,
+      "genders": [
+        "male",
+        "female"
+      ],
+      "maxScore": 6,
+      "scoringMode": "official_threshold_table",
+      "tables": [
+        {
+          "number": "表二",
+          "caption": "100米游泳评分表（北京2026男/女；分·秒）",
+          "header": [
+            "分值",
+            "男（分·秒）",
+            "女（分·秒）"
+          ],
+          "rows": [
+            [
+              "6",
+              "2′25\"",
+              "2′40\""
+            ],
+            [
+              "5.5",
+              "2′35\"",
+              "2′48\""
+            ],
+            [
+              "5",
+              "2′45\"",
+              "2′56\""
+            ],
+            [
+              "4.5",
+              "2′55\"",
+              "3′04\""
+            ],
+            [
+              "4",
+              "3′05\"",
+              "3′12\""
+            ],
+            [
+              "3.5",
+              "3′15\"",
+              "3′20\""
+            ],
+            [
+              "3",
+              "3′30\"",
+              "3′30\""
+            ],
+            [
+              "2.5",
+              "3′40\"",
+              "3′40\""
+            ],
+            [
+              "2",
+              "3′50\"",
+              "3′50\""
+            ],
+            [
+              "1.5",
+              "4′00\"",
+              "4′00\""
+            ],
+            [
+              "1",
+              "4′10\"",
+              "4′10\""
+            ],
+            [
+              "0.5",
+              "4′20\"",
+              "4′20\""
+            ],
+            [
+              "0",
+              "4′21\"",
+              "4′21\""
+            ]
+          ],
+          "cellSemantics": "官方原表档位值；保留空白，不转换为区间，不外推0分端点。"
+        }
+      ],
+      "source": {
+        "sourceId": "bjeea-beijing-field-scoring-2023-trial",
+        "title": "《北京市义务教育体育与健康考核评价现场考试项目评分标准（试行）》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2023-11-24试行版",
+        "effectiveFrom": "2024-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/tzgg/2023/1124/84611.html",
+        "pageOrSection": "表一素质项目Ⅰ、Ⅱ；表二运动能力Ⅰ及游泳；体操、武术评分量表",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified_current_for_2026",
+        "checkedAt": "2026-11-09",
+        "sha256": "60ab3b0a5e0fe80a889afff5b17eb0d883e4754e175ceb76c812652ea95cb0ec",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "policySource": {
+        "sourceId": "bjeea-2026-middle-school-sports-faq",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026-04-03",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；现场考试4类22项、每类1项",
+        "retrievedAt": "2026-09-01",
+        "verificationStatus": "verified",
+        "checkedAt": "2026-11-09",
+        "sha256": "40c756bbdf31b177513e226f39c06aa3d8a4950dd8ea21c6bafa9fa113963199",
+        "verificationMethod": "live_official_html_comparison"
+      },
+      "catalogSource": {
+        "id": "beijing-entrance-exam-2026",
+        "title": "《2026年北京市初中学考体育现场考试问题解答》",
+        "publisher": "北京教育考试院",
+        "documentVersion": "2026年现场考试",
+        "effectiveFrom": "2026-01-01",
+        "sourceUrl": "https://www.bjeea.cn/html/zkzz/faq/2026/0403/88023.html",
+        "pageOrSection": "问题一、问题三：50分构成；4类22项现场考试内容；数值评分表另见2023-11-24试行版",
+        "itemScopeStatus": "official_source_linked",
+        "scoringRulesStatus": "verified_numeric_16_rubric_6"
+      },
+      "sourceLocator": "表二“100米游泳（分·秒）”",
+      "ruleSetVersion": "2026.field.30.v1",
+      "sourceRule": {
+        "direction": "lower",
+        "maxScore": 6,
+        "scores": [
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0,
+          1.5,
+          1.0,
+          0.5,
+          0.0
+        ],
+        "thresholds": {
+          "male": [
+            145,
+            155,
+            165,
+            175,
+            185,
+            195,
+            210,
+            220,
+            230,
+            240,
+            250,
+            260,
+            261
+          ],
+          "female": [
+            160,
+            168,
+            176,
+            184,
+            192,
+            200,
+            210,
+            220,
+            230,
+            240,
+            250,
+            260,
+            261
+          ]
+        },
+        "category": "category_4",
+        "unit": "s",
+        "sourceLocator": "表二“100米游泳（分·秒）”"
+      },
+      "tableUnit": "分·秒",
+      "equipment": "50米或25米泳池，4—10条泳道；泳装泳帽，可戴泳镜，禁助速、助浮、助耐力器材或泳衣；每泳道1考务员，每考点2医护、至少2救生员。",
+      "steps": [
+        "从水中出发，泳姿不限，发出出发信号后开始。",
+        "在本泳道游进，每个划水周期身体任一部位必须露出水面1次。",
+        "途中不扒扶池壁边沿或分道线，不触底。",
+        "转身必须触及池壁，再继续游进至100米。",
+        "终点身体任意部位触及池壁即完成，记录分、秒。"
+      ],
+      "notes": [
+        "出发信号前出发，成绩无效计0分。",
+        "转身未触壁，或游进及转身触底，成绩无效计0分。",
+        "扒扶池壁边沿或分道线、越分道线或妨碍他人，成绩无效计0分。",
+        "超过0分标准规定时长，提醒就近上岸，成绩0分。",
+        "患肝炎、重症沙眼、急性出血性结膜炎、中耳炎、肠道传染病、皮肤病及其他不宜游泳疾病者，严禁参加游泳考试。"
+      ],
+      "reading": {
+        "precision": "分、秒，不足1秒不计入。",
+        "attempts": "1次。",
+        "timingOrCounting": "水中出发游100米；身体任意部位触终点池壁完成。",
+        "judgment": "无犯规成绩有效；按原页0分标准时长终止。"
+      },
+      "methodSources": [
+        {
+          "title": "北京市义务教育体育与健康考核评价现场考试场地器材设置规范及项目考试规则（试行）",
+          "publisher": "北京市教育委员会",
+          "version": "2022年12月",
+          "file": "docs/official-standards/beijing-technical-2022.pdf",
+          "url": "https://jw.beijing.gov.cn/jyzx/jyxw/202304/P020230412376149107332.pdf",
+          "pdfPages": [
+            24,
+            25
+          ],
+          "pageNumbering": "PDF物理页码，1起；与印刷页码一致",
+          "section": "100米游泳",
+          "locators": {
+            "equipment": "（一）场地器材规格及设置要求；有通用要求的项目同时参见通用要求",
+            "steps": "动作规格及考试操作要求／考试操作要求；体操武术另见（一）考试内容",
+            "notes": "违反考试规则的情形及处理规定；考试操作要求",
+            "reading": "考试操作要求中的次数、记录及判分条款"
+          }
+        }
+      ],
+      "sourcePages": [
+        24,
+        25
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-09",
+    "numericCellsCompared": 422,
+    "blankCellsPreserved": 12,
+    "numericItems": 16,
+    "rubricItems": 6,
+    "status": "official_tables_compared",
+    "methodScope": "测试方法由独立methods.json提供，本文件仅包含评分、分类及来源。"
+  }
+}
